@@ -51,7 +51,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEa-v1-crc">
-                                <rect key="frame" x="238" y="345" width="62" height="30"/>
+                                <rect key="frame" x="156" y="342" width="62" height="30"/>
                                 <state key="normal" title="ログイン"/>
                                 <connections>
                                     <action selector="loginButton:" destination="iKw-27-Duc" eventType="touchUpInside" id="3JM-xi-Kxd"/>
@@ -63,14 +63,16 @@
                             <constraint firstItem="wTC-81-ASe" firstAttribute="top" secondItem="036-Em-17O" secondAttribute="bottom" constant="123.5" id="06G-Or-Y9U"/>
                             <constraint firstItem="wTC-81-ASe" firstAttribute="leading" secondItem="7Db-rE-bR8" secondAttribute="leadingMargin" constant="66" id="6pf-D3-XPv"/>
                             <constraint firstItem="036-Em-17O" firstAttribute="leading" secondItem="7Db-rE-bR8" secondAttribute="leadingMargin" constant="62" id="9kK-h1-EXO"/>
-                            <constraint firstItem="gEa-v1-crc" firstAttribute="top" secondItem="4WG-KJ-lRf" secondAttribute="bottom" constant="25" id="F30-q0-upQ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="gEa-v1-crc" secondAttribute="trailing" constant="59" id="MZw-zv-jgw"/>
+                            <constraint firstItem="gEa-v1-crc" firstAttribute="top" secondItem="4WG-KJ-lRf" secondAttribute="bottom" constant="22" id="Dbt-wP-kYY"/>
                             <constraint firstAttribute="trailingMargin" secondItem="4WG-KJ-lRf" secondAttribute="trailing" constant="67" id="dJs-Oa-fFQ"/>
                             <constraint firstItem="4WG-KJ-lRf" firstAttribute="leading" secondItem="7Db-rE-bR8" secondAttribute="leadingMargin" constant="66" id="ddd-Rk-rDP"/>
                             <constraint firstItem="4WG-KJ-lRf" firstAttribute="top" secondItem="wTC-81-ASe" secondAttribute="bottom" constant="30" id="edh-Cc-gNh"/>
+                            <constraint firstItem="gEa-v1-crc" firstAttribute="leading" secondItem="7Db-rE-bR8" secondAttribute="leadingMargin" constant="140" id="epT-op-eBj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="036-Em-17O" secondAttribute="trailing" constant="62" id="grd-k7-J31"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gEa-v1-crc" secondAttribute="trailing" constant="141" id="hdg-q6-tRT"/>
                             <constraint firstItem="036-Em-17O" firstAttribute="top" secondItem="Kqy-Vx-i6J" secondAttribute="bottom" constant="36" id="j6A-Eq-3ch"/>
                             <constraint firstAttribute="trailingMargin" secondItem="wTC-81-ASe" secondAttribute="trailing" constant="67" id="woU-vN-TOO"/>
+                            <constraint firstItem="gEa-v1-crc" firstAttribute="centerX" secondItem="7Db-rE-bR8" secondAttribute="centerX" id="xfG-lW-Ivq"/>
                         </constraints>
                     </view>
                     <connections>
