@@ -14,6 +14,12 @@
 		EFC5A7601F00A6AA00193BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC5A75E1F00A6AA00193BFB /* LaunchScreen.storyboard */; };
 		EFC5A76B1F00A6AB00193BFB /* contactBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5A76A1F00A6AB00193BFB /* contactBookTests.swift */; };
 		EFC5A7761F00A6AB00193BFB /* contactBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5A7751F00A6AB00193BFB /* contactBookUITests.swift */; };
+		EFD6A8861F09DC3700BAC4D3 /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD6A8851F09DC3700BAC4D3 /* login.storyboard */; };
+		EFD6A8881F09DC9B00BAC4D3 /* home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD6A8871F09DC9B00BAC4D3 /* home.storyboard */; };
+		EFD6A88A1F09DD2300BAC4D3 /* notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD6A8891F09DD2300BAC4D3 /* notification.storyboard */; };
+		EFD6A8941F09E3A900BAC4D3 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD6A8931F09E3A900BAC4D3 /* loginViewController.swift */; };
+		EFD6A8961F09E3C900BAC4D3 /* notificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD6A8951F09E3C900BAC4D3 /* notificationViewController.swift */; };
+		EFD6A8981F09E3DE00BAC4D3 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD6A8971F09E3DE00BAC4D3 /* homeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		EFC5A7711F00A6AB00193BFB /* contactBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = contactBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC5A7751F00A6AB00193BFB /* contactBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactBookUITests.swift; sourceTree = "<group>"; };
 		EFC5A7771F00A6AB00193BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD6A8851F09DC3700BAC4D3 /* login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = login.storyboard; sourceTree = "<group>"; };
+		EFD6A8871F09DC9B00BAC4D3 /* home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = home.storyboard; sourceTree = "<group>"; };
+		EFD6A8891F09DD2300BAC4D3 /* notification.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = notification.storyboard; sourceTree = "<group>"; };
+		EFD6A8931F09E3A900BAC4D3 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		EFD6A8951F09E3C900BAC4D3 /* notificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notificationViewController.swift; sourceTree = "<group>"; };
+		EFD6A8971F09E3DE00BAC4D3 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,12 @@
 				EFC5A75C1F00A6AA00193BFB /* Assets.xcassets */,
 				EFC5A75E1F00A6AA00193BFB /* LaunchScreen.storyboard */,
 				EFC5A7611F00A6AA00193BFB /* Info.plist */,
+				EFD6A8871F09DC9B00BAC4D3 /* home.storyboard */,
+				EFD6A8891F09DD2300BAC4D3 /* notification.storyboard */,
+				EFD6A8851F09DC3700BAC4D3 /* login.storyboard */,
+				EFD6A8931F09E3A900BAC4D3 /* loginViewController.swift */,
+				EFD6A8951F09E3C900BAC4D3 /* notificationViewController.swift */,
+				EFD6A8971F09E3DE00BAC4D3 /* homeViewController.swift */,
 			);
 			path = contactBook;
 			sourceTree = "<group>";
@@ -235,6 +253,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD6A8881F09DC9B00BAC4D3 /* home.storyboard in Resources */,
+				EFD6A88A1F09DD2300BAC4D3 /* notification.storyboard in Resources */,
+				EFD6A8861F09DC3700BAC4D3 /* login.storyboard in Resources */,
 				EFC5A7601F00A6AA00193BFB /* LaunchScreen.storyboard in Resources */,
 				EFC5A75D1F00A6AA00193BFB /* Assets.xcassets in Resources */,
 				EFC5A75B1F00A6AA00193BFB /* Main.storyboard in Resources */,
@@ -264,6 +285,9 @@
 			files = (
 				EFC5A7581F00A6AA00193BFB /* ViewController.swift in Sources */,
 				EFC5A7561F00A6AA00193BFB /* AppDelegate.swift in Sources */,
+				EFD6A8961F09E3C900BAC4D3 /* notificationViewController.swift in Sources */,
+				EFD6A8981F09E3DE00BAC4D3 /* homeViewController.swift in Sources */,
+				EFD6A8941F09E3A900BAC4D3 /* loginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +540,7 @@
 				EFC5A77C1F00A6AB00193BFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFC5A77D1F00A6AB00193BFB /* Build configuration list for PBXNativeTarget "contactBookTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +549,7 @@
 				EFC5A77F1F00A6AB00193BFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFC5A7801F00A6AB00193BFB /* Build configuration list for PBXNativeTarget "contactBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +558,7 @@
 				EFC5A7821F00A6AB00193BFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
