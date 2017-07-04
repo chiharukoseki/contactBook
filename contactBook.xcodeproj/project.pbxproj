@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACA731C11F0B1B2E008AB208 /* stamp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA731C01F0B1B2E008AB208 /* stamp.storyboard */; };
+		ACA731C31F0B1B3D008AB208 /* stamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA731C21F0B1B3D008AB208 /* stamp.swift */; };
+		ACA731C51F0B1C27008AB208 /* 坊や　スタンプ.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA731C41F0B1C27008AB208 /* 坊や　スタンプ.png */; };
 		EFC5A7561F00A6AA00193BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5A7551F00A6AA00193BFB /* AppDelegate.swift */; };
 		EFC5A7581F00A6AA00193BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5A7571F00A6AA00193BFB /* ViewController.swift */; };
 		EFC5A75B1F00A6AA00193BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC5A7591F00A6AA00193BFB /* Main.storyboard */; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ACA731C01F0B1B2E008AB208 /* stamp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = stamp.storyboard; path = ../stamp.storyboard; sourceTree = "<group>"; };
+		ACA731C21F0B1B3D008AB208 /* stamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = stamp.swift; path = ../stamp.swift; sourceTree = "<group>"; };
+		ACA731C41F0B1C27008AB208 /* 坊や　スタンプ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "坊や　スタンプ.png"; path = "../../../Downloads/坊や　スタンプ.png"; sourceTree = "<group>"; };
 		EFC5A7521F00A6AA00193BFB /* contactBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contactBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC5A7551F00A6AA00193BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFC5A7571F00A6AA00193BFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -117,7 +123,10 @@
 				EFC5A7611F00A6AA00193BFB /* Info.plist */,
 				EFD6A8871F09DC9B00BAC4D3 /* home.storyboard */,
 				EFD6A8891F09DD2300BAC4D3 /* notification.storyboard */,
+				ACA731C01F0B1B2E008AB208 /* stamp.storyboard */,
+				ACA731C41F0B1C27008AB208 /* 坊や　スタンプ.png */,
 				EFD6A8851F09DC3700BAC4D3 /* login.storyboard */,
+				ACA731C21F0B1B3D008AB208 /* stamp.swift */,
 				EFD6A8931F09E3A900BAC4D3 /* loginViewController.swift */,
 				EFD6A8951F09E3C900BAC4D3 /* notificationViewController.swift */,
 				EFD6A8971F09E3DE00BAC4D3 /* homeViewController.swift */,
@@ -257,8 +266,10 @@
 				EFD6A88A1F09DD2300BAC4D3 /* notification.storyboard in Resources */,
 				EFD6A8861F09DC3700BAC4D3 /* login.storyboard in Resources */,
 				EFC5A7601F00A6AA00193BFB /* LaunchScreen.storyboard in Resources */,
+				ACA731C11F0B1B2E008AB208 /* stamp.storyboard in Resources */,
 				EFC5A75D1F00A6AA00193BFB /* Assets.xcassets in Resources */,
 				EFC5A75B1F00A6AA00193BFB /* Main.storyboard in Resources */,
+				ACA731C51F0B1C27008AB208 /* 坊や　スタンプ.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +297,7 @@
 				EFC5A7581F00A6AA00193BFB /* ViewController.swift in Sources */,
 				EFC5A7561F00A6AA00193BFB /* AppDelegate.swift in Sources */,
 				EFD6A8961F09E3C900BAC4D3 /* notificationViewController.swift in Sources */,
+				ACA731C31F0B1B3D008AB208 /* stamp.swift in Sources */,
 				EFD6A8981F09E3DE00BAC4D3 /* homeViewController.swift in Sources */,
 				EFD6A8941F09E3A900BAC4D3 /* loginViewController.swift in Sources */,
 			);
