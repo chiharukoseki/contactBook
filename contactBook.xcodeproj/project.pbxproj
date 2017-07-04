@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF2B39011F0B1C8200128EDA /* boya3.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2B39001F0B1C8200128EDA /* boya3.png */; };
+		ACA731C11F0B1B2E008AB208 /* stamp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA731C01F0B1B2E008AB208 /* stamp.storyboard */; };
+		ACA731C31F0B1B3D008AB208 /* stamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA731C21F0B1B3D008AB208 /* stamp.swift */; };
+		ACA731C51F0B1C27008AB208 /* 坊や　スタンプ.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA731C41F0B1C27008AB208 /* 坊や　スタンプ.png */; };
 		EFC5A7561F00A6AA00193BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5A7551F00A6AA00193BFB /* AppDelegate.swift */; };
 		EFC5A7581F00A6AA00193BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5A7571F00A6AA00193BFB /* ViewController.swift */; };
 		EFC5A75B1F00A6AA00193BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC5A7591F00A6AA00193BFB /* Main.storyboard */; };
@@ -41,7 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EF2B39001F0B1C8200128EDA /* boya3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boya3.png; path = ../../../../Desktop/boya3.png; sourceTree = "<group>"; };
+		ACA731C01F0B1B2E008AB208 /* stamp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = stamp.storyboard; path = stamp.storyboard; sourceTree = "<group>"; };
+		ACA731C21F0B1B3D008AB208 /* stamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = stamp.swift; path = stamp.swift; sourceTree = "<group>"; };
+		ACA731C41F0B1C27008AB208 /* 坊や　スタンプ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "坊や　スタンプ.png"; path = "../../../Downloads/坊や　スタンプ.png"; sourceTree = "<group>"; };
 		EFC5A7521F00A6AA00193BFB /* contactBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contactBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC5A7551F00A6AA00193BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFC5A7571F00A6AA00193BFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,10 +95,10 @@
 		EFC5A7491F00A6AA00193BFB = {
 			isa = PBXGroup;
 			children = (
+				EFC5A7531F00A6AA00193BFB /* Products */,
 				EFC5A7541F00A6AA00193BFB /* contactBook */,
 				EFC5A7691F00A6AB00193BFB /* contactBookTests */,
 				EFC5A7741F00A6AB00193BFB /* contactBookUITests */,
-				EFC5A7531F00A6AA00193BFB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,19 +115,21 @@
 		EFC5A7541F00A6AA00193BFB /* contactBook */ = {
 			isa = PBXGroup;
 			children = (
-				EF2B39001F0B1C8200128EDA /* boya3.png */,
 				EFC5A7551F00A6AA00193BFB /* AppDelegate.swift */,
-				EFC5A7571F00A6AA00193BFB /* ViewController.swift */,
-				EFC5A7591F00A6AA00193BFB /* Main.storyboard */,
 				EFC5A75C1F00A6AA00193BFB /* Assets.xcassets */,
-				EFC5A75E1F00A6AA00193BFB /* LaunchScreen.storyboard */,
 				EFC5A7611F00A6AA00193BFB /* Info.plist */,
+				EFC5A75E1F00A6AA00193BFB /* LaunchScreen.storyboard */,
+				EFC5A7591F00A6AA00193BFB /* Main.storyboard */,
+				EFC5A7571F00A6AA00193BFB /* ViewController.swift */,
 				EFD6A8871F09DC9B00BAC4D3 /* home.storyboard */,
-				EFD6A8891F09DD2300BAC4D3 /* notification.storyboard */,
+				EFD6A8971F09E3DE00BAC4D3 /* homeViewController.swift */,
 				EFD6A8851F09DC3700BAC4D3 /* login.storyboard */,
 				EFD6A8931F09E3A900BAC4D3 /* loginViewController.swift */,
+				EFD6A8891F09DD2300BAC4D3 /* notification.storyboard */,
 				EFD6A8951F09E3C900BAC4D3 /* notificationViewController.swift */,
-				EFD6A8971F09E3DE00BAC4D3 /* homeViewController.swift */,
+				ACA731C01F0B1B2E008AB208 /* stamp.storyboard */,
+				ACA731C21F0B1B3D008AB208 /* stamp.swift */,
+				ACA731C41F0B1C27008AB208 /* 坊や　スタンプ.png */,
 			);
 			path = contactBook;
 			sourceTree = "<group>";
@@ -131,8 +137,8 @@
 		EFC5A7691F00A6AB00193BFB /* contactBookTests */ = {
 			isa = PBXGroup;
 			children = (
-				EFC5A76A1F00A6AB00193BFB /* contactBookTests.swift */,
 				EFC5A76C1F00A6AB00193BFB /* Info.plist */,
+				EFC5A76A1F00A6AB00193BFB /* contactBookTests.swift */,
 			);
 			path = contactBookTests;
 			sourceTree = "<group>";
@@ -140,8 +146,8 @@
 		EFC5A7741F00A6AB00193BFB /* contactBookUITests */ = {
 			isa = PBXGroup;
 			children = (
-				EFC5A7751F00A6AB00193BFB /* contactBookUITests.swift */,
 				EFC5A7771F00A6AB00193BFB /* Info.plist */,
+				EFC5A7751F00A6AB00193BFB /* contactBookUITests.swift */,
 			);
 			path = contactBookUITests;
 			sourceTree = "<group>";
@@ -260,9 +266,10 @@
 				EFD6A88A1F09DD2300BAC4D3 /* notification.storyboard in Resources */,
 				EFD6A8861F09DC3700BAC4D3 /* login.storyboard in Resources */,
 				EFC5A7601F00A6AA00193BFB /* LaunchScreen.storyboard in Resources */,
+				ACA731C11F0B1B2E008AB208 /* stamp.storyboard in Resources */,
 				EFC5A75D1F00A6AA00193BFB /* Assets.xcassets in Resources */,
-				EF2B39011F0B1C8200128EDA /* boya3.png in Resources */,
 				EFC5A75B1F00A6AA00193BFB /* Main.storyboard in Resources */,
+				ACA731C51F0B1C27008AB208 /* 坊や　スタンプ.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +297,7 @@
 				EFC5A7581F00A6AA00193BFB /* ViewController.swift in Sources */,
 				EFC5A7561F00A6AA00193BFB /* AppDelegate.swift in Sources */,
 				EFD6A8961F09E3C900BAC4D3 /* notificationViewController.swift in Sources */,
+				ACA731C31F0B1B3D008AB208 /* stamp.swift in Sources */,
 				EFD6A8981F09E3DE00BAC4D3 /* homeViewController.swift in Sources */,
 				EFD6A8941F09E3A900BAC4D3 /* loginViewController.swift in Sources */,
 			);
@@ -333,6 +341,7 @@
 				EFC5A75A1F00A6AA00193BFB /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		EFC5A75E1F00A6AA00193BFB /* LaunchScreen.storyboard */ = {
@@ -341,6 +350,7 @@
 				EFC5A75F1F00A6AA00193BFB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
