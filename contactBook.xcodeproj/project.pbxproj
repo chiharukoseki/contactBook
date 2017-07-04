@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF2B39011F0B1C8200128EDA /* boya3.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2B39001F0B1C8200128EDA /* boya3.png */; };
 		EFC5A7561F00A6AA00193BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5A7551F00A6AA00193BFB /* AppDelegate.swift */; };
 		EFC5A7581F00A6AA00193BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5A7571F00A6AA00193BFB /* ViewController.swift */; };
 		EFC5A75B1F00A6AA00193BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC5A7591F00A6AA00193BFB /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF2B39001F0B1C8200128EDA /* boya3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boya3.png; path = ../../../../Desktop/boya3.png; sourceTree = "<group>"; };
 		EFC5A7521F00A6AA00193BFB /* contactBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contactBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC5A7551F00A6AA00193BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFC5A7571F00A6AA00193BFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		EFC5A7541F00A6AA00193BFB /* contactBook */ = {
 			isa = PBXGroup;
 			children = (
+				EF2B39001F0B1C8200128EDA /* boya3.png */,
 				EFC5A7551F00A6AA00193BFB /* AppDelegate.swift */,
 				EFC5A7571F00A6AA00193BFB /* ViewController.swift */,
 				EFC5A7591F00A6AA00193BFB /* Main.storyboard */,
@@ -258,6 +261,7 @@
 				EFD6A8861F09DC3700BAC4D3 /* login.storyboard in Resources */,
 				EFC5A7601F00A6AA00193BFB /* LaunchScreen.storyboard in Resources */,
 				EFC5A75D1F00A6AA00193BFB /* Assets.xcassets in Resources */,
+				EF2B39011F0B1C8200128EDA /* boya3.png in Resources */,
 				EFC5A75B1F00A6AA00193BFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,12 +21,51 @@
                     <view key="view" contentMode="scaleToFill" id="M9n-ta-CA0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="boya3.png" translatesAutoresizingMaskIntoConstraints="NO" id="c8P-Y2-L6K">
+                                <rect key="frame" x="16" y="59" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="WWO-S5-dI5"/>
+                                    <constraint firstAttribute="height" constant="120" id="otF-M6-2hd"/>
+                                </constraints>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fSs-1k-wtu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="園からのお知らせ" id="obZ-DN-aVX">
+                                        <barButtonItem key="leftBarButtonItem" title="≡" id="N81-42-2kk"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rla-yW-CG0">
+                                <rect key="frame" x="16" y="187" width="343" height="460"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="460" id="083-pE-Z6g"/>
+                                    <constraint firstAttribute="width" constant="343" id="AiD-uK-ioI"/>
+                                </constraints>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="c8P-Y2-L6K" firstAttribute="leading" secondItem="M9n-ta-CA0" secondAttribute="leadingMargin" id="7Z0-D2-6Ji"/>
+                            <constraint firstItem="rla-yW-CG0" firstAttribute="leading" secondItem="M9n-ta-CA0" secondAttribute="leadingMargin" id="Gms-D5-Iij"/>
+                            <constraint firstItem="rla-yW-CG0" firstAttribute="trailing" secondItem="M9n-ta-CA0" secondAttribute="trailingMargin" id="Ohc-K2-9tz"/>
+                            <constraint firstItem="fSs-1k-wtu" firstAttribute="top" secondItem="M9n-ta-CA0" secondAttribute="top" id="OqI-36-1rI"/>
+                            <constraint firstItem="c8P-Y2-L6K" firstAttribute="top" secondItem="fSs-1k-wtu" secondAttribute="bottom" constant="15" id="X1U-D5-IYy"/>
+                            <constraint firstItem="rla-yW-CG0" firstAttribute="top" secondItem="c8P-Y2-L6K" secondAttribute="bottom" constant="8" id="cft-Tp-dff"/>
+                            <constraint firstAttribute="trailing" secondItem="fSs-1k-wtu" secondAttribute="trailing" id="p50-Yn-tUM"/>
+                            <constraint firstItem="hcr-WY-tYT" firstAttribute="top" secondItem="rla-yW-CG0" secondAttribute="bottom" constant="20" id="sYg-Dt-bx2"/>
+                            <constraint firstItem="fSs-1k-wtu" firstAttribute="leading" secondItem="M9n-ta-CA0" secondAttribute="leading" id="tqL-WH-MHK"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WfS-1w-dJ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="126" y="159"/>
+            <point key="canvasLocation" x="125.59999999999999" y="158.77061469265368"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="boya3.png" width="800" height="800"/>
+    </resources>
 </document>
