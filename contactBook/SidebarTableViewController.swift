@@ -23,7 +23,7 @@ class SidebarTableViewController: UITableViewController,UITableViewDelegate,UITa
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
         //テーブルビュー初期化、関連付け
-        tableView.frame = UIScreen.mainScreen().bounds
+        tableView.frame = UIScreen.main.bounds
         tableView.delegate = self
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         self.view.addSubview(tableView)
@@ -34,7 +34,7 @@ class SidebarTableViewController: UITableViewController,UITableViewDelegate,UITa
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier("cell") as UITableViewCell!
+        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell") as UITableViewCell!
         cell.textLabel?.text = self.items[indexPath.row]
         return cell
     }

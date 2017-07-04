@@ -1,0 +1,6 @@
+framework module Pods_contactBookUITests {
+  umbrella header "Pods-contactBookUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
