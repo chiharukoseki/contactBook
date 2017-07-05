@@ -12,9 +12,10 @@
 		7B578CC202818053980A81C0 /* Pods_contactBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3494E06C8E1F4EFC399C11 /* Pods_contactBookUITests.framework */; };
 		ACA731C11F0B1B2E008AB208 /* stamp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA731C01F0B1B2E008AB208 /* stamp.storyboard */; };
 		ACA731C51F0B1C27008AB208 /* 坊や　スタンプ.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA731C41F0B1C27008AB208 /* 坊や　スタンプ.png */; };
-		EFB164281F0B2A0200B02B58 /* stampViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB164271F0B2A0200B02B58 /* stampViewController.swift */; };
+		ACE4CC801F0CA43E009C8DB2 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE4CC7F1F0CA43E009C8DB2 /* Storyboard.storyboard */; };
+		ACE4CC821F0CA490009C8DB2 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CC811F0CA490009C8DB2 /* LeftViewController.swift */; };
+		ACE4CC841F0CA500009C8DB2 /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CC831F0CA500009C8DB2 /* SlideViewController.swift */; };
 		EFB1642C1F0B2E8000B02B58 /* boya3.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB1642B1F0B2E8000B02B58 /* boya3.png */; };
-		EFB164311F0B4D3600B02B58 /* SidebarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB164301F0B4D3600B02B58 /* SidebarTableViewController.swift */; };
 		EFC5A7561F00A6AA00193BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5A7551F00A6AA00193BFB /* AppDelegate.swift */; };
 		EFC5A7581F00A6AA00193BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5A7571F00A6AA00193BFB /* ViewController.swift */; };
 		EFC5A75B1F00A6AA00193BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC5A7591F00A6AA00193BFB /* Main.storyboard */; };
@@ -57,10 +58,11 @@
 		963B4592B5CECD5C260343E7 /* Pods-contactBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contactBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-contactBookTests/Pods-contactBookTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ACA731C01F0B1B2E008AB208 /* stamp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = stamp.storyboard; sourceTree = "<group>"; };
 		ACA731C41F0B1C27008AB208 /* 坊や　スタンプ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "坊や　スタンプ.png"; path = "../../../Downloads/坊や　スタンプ.png"; sourceTree = "<group>"; };
+		ACE4CC7F1F0CA43E009C8DB2 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		ACE4CC811F0CA490009C8DB2 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		ACE4CC831F0CA500009C8DB2 /* SlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
 		EF227B081F0B6BED00408E08 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		EFB164271F0B2A0200B02B58 /* stampViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stampViewController.swift; sourceTree = "<group>"; };
 		EFB1642B1F0B2E8000B02B58 /* boya3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boya3.png; path = ../../../../Desktop/boya3.png; sourceTree = "<group>"; };
-		EFB164301F0B4D3600B02B58 /* SidebarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarTableViewController.swift; sourceTree = "<group>"; };
 		EFC5A7521F00A6AA00193BFB /* contactBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contactBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC5A7551F00A6AA00193BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFC5A7571F00A6AA00193BFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +156,9 @@
 				EFC5A7611F00A6AA00193BFB /* Info.plist */,
 				EFC5A75E1F00A6AA00193BFB /* LaunchScreen.storyboard */,
 				EFC5A7591F00A6AA00193BFB /* Main.storyboard */,
+				ACE4CC7F1F0CA43E009C8DB2 /* Storyboard.storyboard */,
+				ACE4CC831F0CA500009C8DB2 /* SlideViewController.swift */,
+				ACE4CC811F0CA490009C8DB2 /* LeftViewController.swift */,
 				EFC5A7571F00A6AA00193BFB /* ViewController.swift */,
 				EFD6A8871F09DC9B00BAC4D3 /* home.storyboard */,
 				EFD6A8971F09E3DE00BAC4D3 /* homeViewController.swift */,
@@ -163,8 +168,6 @@
 				EFD6A8951F09E3C900BAC4D3 /* notificationViewController.swift */,
 				ACA731C01F0B1B2E008AB208 /* stamp.storyboard */,
 				ACA731C41F0B1C27008AB208 /* 坊や　スタンプ.png */,
-				EFB164271F0B2A0200B02B58 /* stampViewController.swift */,
-				EFB164301F0B4D3600B02B58 /* SidebarTableViewController.swift */,
 			);
 			path = contactBook;
 			sourceTree = "<group>";
@@ -277,7 +280,6 @@
 				TargetAttributes = {
 					EFC5A7511F00A6AA00193BFB = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 3NCQV2CQRS;
 						ProvisioningStyle = Automatic;
 					};
 					EFC5A7651F00A6AB00193BFB = {
@@ -328,6 +330,7 @@
 				EFC5A75D1F00A6AA00193BFB /* Assets.xcassets in Resources */,
 				EFC5A75B1F00A6AA00193BFB /* Main.storyboard in Resources */,
 				ACA731C51F0B1C27008AB208 /* 坊や　スタンプ.png in Resources */,
+				ACE4CC801F0CA43E009C8DB2 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,11 +494,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFC5A7581F00A6AA00193BFB /* ViewController.swift in Sources */,
-				EFB164311F0B4D3600B02B58 /* SidebarTableViewController.swift in Sources */,
 				EFC5A7561F00A6AA00193BFB /* AppDelegate.swift in Sources */,
-				EFB164281F0B2A0200B02B58 /* stampViewController.swift in Sources */,
 				EFD6A8961F09E3C900BAC4D3 /* notificationViewController.swift in Sources */,
+				ACE4CC821F0CA490009C8DB2 /* LeftViewController.swift in Sources */,
 				EFD6A8981F09E3DE00BAC4D3 /* homeViewController.swift in Sources */,
+				ACE4CC841F0CA500009C8DB2 /* SlideViewController.swift in Sources */,
 				EFD6A8941F09E3A900BAC4D3 /* loginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -653,7 +656,7 @@
 			baseConfigurationReference = FDBFC420B8518876DF296D73 /* Pods-contactBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3NCQV2CQRS;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = contactBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.contactBook;
@@ -668,7 +671,7 @@
 			baseConfigurationReference = 4E352CB46DE05052790C2B5D /* Pods-contactBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3NCQV2CQRS;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = contactBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.contactBook;
