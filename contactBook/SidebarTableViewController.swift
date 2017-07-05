@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SidebarTableViewController: UITableViewController,UITableViewDelegate,UITableViewDataSource {
+class SidebarTableViewController: UITableViewController {
     
     var tableView: UITableView! = UITableView()
     var items: [String] = ["menu","menu2","menu3"]

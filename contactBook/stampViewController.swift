@@ -13,14 +13,14 @@ class stampViewController: UIViewController {
     @IBAction func UIbutton(_ sender: Any) {
         
         // HomeViewControllerとNavigationControllerをつなげる
-        let stampViewController = stamapViewController()
-        let navigationController = UINavigationController(rootViewController: homeViewController)
+        let stampViewController = stampViewController()
+        let navigationController = UINavigationController(rootViewController: stampViewController)
         
         // NavigationControllerをfront, SidebarTableViewControllerをrearにし、
         // SWRevealViewControllerに接続
         let frontViewController  = navigationController
         let rearViewController  = ()
-        let swRevealVC = SWRevealViewController(rearViewController: rearViewController, frontViewController: frontViewController);
+        let swRevealVC = SidebarTableViewController(rearViewController: rearViewController, frontViewController: frontViewController);
         swRevealVC.toggleAnimationType = SWRevealToggleAnimationType.EaseOut;
         swRevealVC.toggleAnimationDuration = 0.30;
         
@@ -29,13 +29,12 @@ class stampViewController: UIViewController {
     }
 
     override func viewDidLoad() {
-        
-        @IBAction func UIbuton(_ sender: Any) {
+        func Uibutton(_ sender: Any) {
         }
         super.viewDidLoad()
         
-        //target とactionを設定
         
+        //target とactionを設定
         if self.revealViewController() != nil {
             uiBarButtonItem.target = self.revealViewController()
             uiBarButtonItem.action = "revealToggle:"
@@ -46,7 +45,7 @@ class stampViewController: UIViewController {
     
         
         
-    override func didReceiveMemoryWarning() {
+    func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
@@ -72,7 +71,7 @@ class stampViewController: UIViewController {
         // SWRevealViewControllerに接続
         let frontViewController  = navigationController
         let rearViewController  = ()
-        let swRevealVC = SWRevealViewController(rearViewController: rearViewController,frontViewController: frontViewController);
+        let swRevealVC = SidebarTableViewController(rearViewController: rearViewController,frontViewController: frontViewController);
             swRevealVC.toggleAnimationType = SWRevealToggleAnimationType.EaseOut;
             swRevealVC.toggleAnimationDuration = 0.30;
             
