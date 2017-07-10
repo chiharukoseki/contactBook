@@ -41,17 +41,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let mainVC = storyboard.instantiateViewController(withIdentifier: "Main")
-        let leftVC = storyboard.instantiateViewController(withIdentifier: "Left")
-        let navigationController = UINavigationController(rootViewController: mainVC)
-        let slideMenuController = SlideMenuController(mainViewController: navigationController, leftMenuViewController: leftVC)
-        self.window?.rootViewController = slideMenuController
-        self.window?.makeKeyAndVisible()
-        return true
-    }
     
 
 }

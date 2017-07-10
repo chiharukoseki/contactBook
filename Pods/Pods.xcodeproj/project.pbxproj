@@ -7,56 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CB30728439DEE0374FD5F930D766F93 /* SWRevealViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CDBEAF066B98CA67C410DAEC88BD35 /* SWRevealViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14C63B0A9AD2C6FA8CE955AD3633BFAA /* Pods-contactBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5CBAFD5F848FEE6066338C5B9A91B3 /* Pods-contactBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CD0343BB0B029187B7C04627C04FD4D /* SlideMenuControllerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F47CEDFE35DA245A8F723034D40F2101 /* SlideMenuControllerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2985A36FC3B8B71BF9F2B28D247C9F68 /* SWRevealViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1CCB7BBB0D5FF2268469E837EF21DC7 /* SWRevealViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B7212EC82897869D3EE4AF47E9CBD6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
 		33A031DF57EF20C7A52405999B02D668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
+		37C3D86D4ABC69FE47195882C13F97DA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86CA51923A822103F4D0651C4B92DBA /* SWRevealViewController.m */; };
 		457BD62DECBC880E9E679A3118BCD006 /* Pods-contactBookUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B8AB759BFACA95D220D535DC90AB0 /* Pods-contactBookUITests-dummy.m */; };
-		49B438C1762BE08A4122C9851D2B0C89 /* Pods-contactBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 992A9B0A3DE051C951D444F0C4270109 /* Pods-contactBook-dummy.m */; };
+		46A1AA7A28D0E15F7F0AC72F838B4E09 /* SlideMenuControllerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF770A7E5492BCF9154B2A73376E2A1D /* SlideMenuControllerSwift-dummy.m */; };
+		4D14E1A2049582119E18FE79335C65A4 /* SWRevealViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F274DE05A24132112F4A1E286DA1FB57 /* SWRevealViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		502AA18578BC7AF2E49FE36D4792EFB6 /* Pods-contactBookUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C9ACDF0FBDAE34BD47D7A68A8CC940 /* Pods-contactBookUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		626321C5C56957A758C3FE3613096D9E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744ABE771270A802B17AA91E0BFC1A15 /* SWRevealViewController.m */; };
-		634A3CC6FB3CA771886607CA660C1058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
 		64408E80766E69275C8C6551F15785A7 /* Pods-contactBookTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E62D7F50139437D533A1E957E91296 /* Pods-contactBookTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E0CCC074AE3334859ACF22FA4CFFB9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
-		808713B5883B2705DBE0A3A760552D6A /* SWRevealViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C926A7FF96BB78067CD69FEACED8667 /* SWRevealViewController-dummy.m */; };
-		9012C3DD5673DCFB86B1AEAE91AB2052 /* SWRevealViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A95697A69A4DB86E4C7BF35BC485CEC4 /* SWRevealViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ACC3BF8CC077937438E6511EFC80097 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8621F66D446C6F4AC0D7F817144EB150 /* CoreGraphics.framework */; };
 		98C849A649CCA5A8AF99CF1B123C8E14 /* Pods-contactBookTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 059F9491025E8D13CB2D47A319CC8729 /* Pods-contactBookTests-dummy.m */; };
-		D5FD3479A0FA69854858663F214B5CE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8621F66D446C6F4AC0D7F817144EB150 /* CoreGraphics.framework */; };
+		9B2B1036CC04A839B6B7C0341E6DDE2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
+		A038E7BDA128473042FF06B6D54D54B1 /* Pods-contactBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 992A9B0A3DE051C951D444F0C4270109 /* Pods-contactBook-dummy.m */; };
+		A8BD2CE08CDE5FFA8BE9C2551FEB03D7 /* Pods-contactBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5CBAFD5F848FEE6066338C5B9A91B3 /* Pods-contactBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACE5DF8FB2A9728F0CC37F4846F47533 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC9299752B88E039705111BE035A48 /* SlideMenuController.swift */; };
+		C021A7A4A81D079F6FE9A24D875D4568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
+		D3882602A62B5104F74668AD35F738A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
+		DDB5DC9B6DD7D2209801A55BC331690F /* SWRevealViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C133E6CAB1AD60BBF640932EF64589 /* SWRevealViewController-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0EFAC0D8413B4AE863EC142B8985CC8B /* PBXContainerItemProxy */ = {
+		133E1E0018005B47CA2437938BBA80D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8946C4CF49039D35F7349C7DB7453C4D;
+			remoteGlobalIDString = 2F8B514C8DA1F3B885F4448A552AE97A;
 			remoteInfo = SWRevealViewController;
+		};
+		DCC41C2E30464122FA3A2C482BA8471C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF980838C805507901F8F7D478770FD;
+			remoteInfo = SlideMenuControllerSwift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00D98897211085DCBDEB486FA476DCDD /* Pods-contactBookTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-contactBookTests.modulemap"; sourceTree = "<group>"; };
-		052AA8E1863456E6BCFF619C2980651B /* Pods_contactBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_contactBook.framework; path = "Pods-contactBook.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		059F9491025E8D13CB2D47A319CC8729 /* Pods-contactBookTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-contactBookTests-dummy.m"; sourceTree = "<group>"; };
 		077D1C5752BC8238C749CAE7DE7429F4 /* Pods-contactBookUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-contactBookUITests-resources.sh"; sourceTree = "<group>"; };
 		0C820A5073CF557A66910BE562C61FFF /* Pods-contactBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-contactBook.release.xcconfig"; sourceTree = "<group>"; };
+		0D9C12691F26E7F826588561AC43809E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E0A2E0E71EB849F9FB401D0F7B0883 /* SlideMenuControllerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlideMenuControllerSwift.xcconfig; sourceTree = "<group>"; };
 		15E62D7F50139437D533A1E957E91296 /* Pods-contactBookTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-contactBookTests-umbrella.h"; sourceTree = "<group>"; };
 		1A0B8AB759BFACA95D220D535DC90AB0 /* Pods-contactBookUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-contactBookUITests-dummy.m"; sourceTree = "<group>"; };
 		247C8F5C15D0C4156F7245A80DB04CEB /* Pods-contactBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-contactBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E778E0B1AAE148DFA49BFA1425551B9 /* SlideMenuControllerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SlideMenuControllerSwift.modulemap; sourceTree = "<group>"; };
 		335DC6548E6BBFCC4ECC55B4A613423B /* Pods-contactBookUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-contactBookUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		35C133E6CAB1AD60BBF640932EF64589 /* SWRevealViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWRevealViewController-dummy.m"; sourceTree = "<group>"; };
 		3E2B4126F0E30DA761013F405C96C99E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EAE3F67A191BF69699DEA983D05E778 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49CDBEAF066B98CA67C410DAEC88BD35 /* SWRevealViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWRevealViewController-umbrella.h"; sourceTree = "<group>"; };
-		4C926A7FF96BB78067CD69FEACED8667 /* SWRevealViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWRevealViewController-dummy.m"; sourceTree = "<group>"; };
+		54F1E8AB303AD5203421422E7EBFA255 /* SWRevealViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWRevealViewController.modulemap; sourceTree = "<group>"; };
 		5AE628CCE89BA6C7DE249133887C198A /* Pods-contactBookUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-contactBookUITests-frameworks.sh"; sourceTree = "<group>"; };
+		64A44123CC43DBCC06AF644CC666D5A3 /* SlideMenuControllerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SlideMenuControllerSwift.framework; path = SlideMenuControllerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F06AFDD6C62697E7FBB8B66A9F08BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		684213E519441074FE8338FBF49E75E9 /* SWRevealViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWRevealViewController.xcconfig; sourceTree = "<group>"; };
 		6D83580201EF7D283F4ADAFF56325D13 /* Pods-contactBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-contactBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		744ABE771270A802B17AA91E0BFC1A15 /* SWRevealViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
 		78F4308C17CC9354A60F11F2EF7BC37E /* Pods-contactBookTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-contactBookTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BD0DDACD5D745E5147B26BD80825D11 /* Pods_contactBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_contactBookTests.framework; path = "Pods-contactBookTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAC987760B5CE9E13BC36B9CF6A6C2F /* Pods-contactBook-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-contactBook-acknowledgements.plist"; sourceTree = "<group>"; };
-		84AF4451685B9AA84946B4803D9D6F4B /* Pods_contactBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_contactBookTests.framework; path = "Pods-contactBookTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8621F66D446C6F4AC0D7F817144EB150 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		90072C20BF6A479486F299C6B57B3C60 /* SlideMenuControllerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-prefix.pch"; sourceTree = "<group>"; };
+		90FC9299752B88E039705111BE035A48 /* SlideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideMenuController.swift; path = Source/SlideMenuController.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9551895175C8C873D8324AF27D8B6274 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		992A9B0A3DE051C951D444F0C4270109 /* Pods-contactBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-contactBook-dummy.m"; sourceTree = "<group>"; };
@@ -64,25 +77,39 @@
 		9B5CBAFD5F848FEE6066338C5B9A91B3 /* Pods-contactBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-contactBook-umbrella.h"; sourceTree = "<group>"; };
 		9B984D2B53AF83BC1FF67910F6DBC3A8 /* Pods-contactBookTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-contactBookTests-frameworks.sh"; sourceTree = "<group>"; };
 		A1256F9B4FDED0CC8C2202AA077D71F7 /* Pods-contactBook-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-contactBook-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A27F618049BA9267BD7F4DE144D005E2 /* SWRevealViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWRevealViewController.modulemap; sourceTree = "<group>"; };
+		A1CCB7BBB0D5FF2268469E837EF21DC7 /* SWRevealViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWRevealViewController-umbrella.h"; sourceTree = "<group>"; };
+		A5831B8730ADAAC8A427F4CAB99C1280 /* SWRevealViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWRevealViewController-prefix.pch"; sourceTree = "<group>"; };
 		A7BFBD96AA54621FA56137838F113022 /* Pods-contactBookUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-contactBookUITests.modulemap"; sourceTree = "<group>"; };
-		A95697A69A4DB86E4C7BF35BC485CEC4 /* SWRevealViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		A86CA51923A822103F4D0651C4B92DBA /* SWRevealViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
 		AC1A5F45A5014C6AC9F69C79D3506CC9 /* Pods-contactBook-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-contactBook-resources.sh"; sourceTree = "<group>"; };
 		AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		BB592AAB429CB093A0E5FB0534B8CF57 /* Pods_contactBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_contactBookUITests.framework; path = "Pods-contactBookUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD377E686C1F2A6799FDAACC7F1F7AC /* Pods_contactBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_contactBook.framework; path = "Pods-contactBook.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF770A7E5492BCF9154B2A73376E2A1D /* SlideMenuControllerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlideMenuControllerSwift-dummy.m"; sourceTree = "<group>"; };
+		B916C6B1A2AEFDD18DB1D1838FB03E84 /* SWRevealViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWRevealViewController.framework; path = SWRevealViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB59DBCF42FD4F00EAFCBE251BBF7422 /* Pods-contactBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-contactBook.debug.xcconfig"; sourceTree = "<group>"; };
+		BCE528C0BC0B576351C61C72520D4A89 /* SWRevealViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWRevealViewController.xcconfig; sourceTree = "<group>"; };
 		BDDF950DCD2C0E371E5DDF67E9074517 /* Pods-contactBookUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-contactBookUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BDEE451C9029B9170C9488A472B2F5A5 /* SWRevealViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWRevealViewController-prefix.pch"; sourceTree = "<group>"; };
 		C02B0F0608415F42877CFE133304158F /* Pods-contactBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-contactBookUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C3C9ACDF0FBDAE34BD47D7A68A8CC940 /* Pods-contactBookUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-contactBookUITests-umbrella.h"; sourceTree = "<group>"; };
 		C7C498FFE7F8EC027FC368EABD43D5E0 /* Pods-contactBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-contactBook.modulemap"; sourceTree = "<group>"; };
 		CDE08058B23282B8B29C97D61255F1A3 /* Pods-contactBookTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-contactBookTests-resources.sh"; sourceTree = "<group>"; };
 		CE6E9F5F79678910757A25150CC5A13C /* Pods-contactBook-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-contactBook-frameworks.sh"; sourceTree = "<group>"; };
 		E245AF12EE9447F9D40B519BFFCDD274 /* Pods-contactBookTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-contactBookTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FE68E518EA6E7511EA9A485E8F36F9C1 /* SWRevealViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWRevealViewController.framework; path = SWRevealViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F274DE05A24132112F4A1E286DA1FB57 /* SWRevealViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		F2958DB4ACA0D9B9066A14F06CB1C658 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F47CEDFE35DA245A8F723034D40F2101 /* SlideMenuControllerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-umbrella.h"; sourceTree = "<group>"; };
+		FDEA1D6D99A3A6C90BDC953328C5B21D /* Pods_contactBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_contactBookUITests.framework; path = "Pods-contactBookUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2C2CACCA487763C4E20C85E7FB5AF2D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C021A7A4A81D079F6FE9A24D875D4568 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		40C6E644933E6F62E8EA075FAC07B6A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,11 +118,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A14B190D254E9AF7D0317A29E32A7D92 /* Frameworks */ = {
+		8B36FC2ABF1146431569A4CA6E463E49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				634A3CC6FB3CA771886607CA660C1058 /* Foundation.framework in Frameworks */,
+				D3882602A62B5104F74668AD35F738A4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,12 +134,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B02C5D22A51350D446EE474BF6F00AA3 /* Frameworks */ = {
+		DFDCA22550F553F78A9B4FCAD38D5B97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5FD3479A0FA69854858663F214B5CE5 /* CoreGraphics.framework in Frameworks */,
-				7E0CCC074AE3334859ACF22FA4CFFB9B /* Foundation.framework in Frameworks */,
+				7ACC3BF8CC077937438E6511EFC80097 /* CoreGraphics.framework in Frameworks */,
+				9B2B1036CC04A839B6B7C0341E6DDE2B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,15 +174,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2A13413360E4B4F80D82A8FD3341A361 /* SWRevealViewController */ = {
+		28C9217E4455CD49FC5E2A624D490BAA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A95697A69A4DB86E4C7BF35BC485CEC4 /* SWRevealViewController.h */,
-				744ABE771270A802B17AA91E0BFC1A15 /* SWRevealViewController.m */,
-				46F8018B70DD7A4DF0CC3B567B149909 /* Support Files */,
+				0D9C12691F26E7F826588561AC43809E /* Info.plist */,
+				2E778E0B1AAE148DFA49BFA1425551B9 /* SlideMenuControllerSwift.modulemap */,
+				10E0A2E0E71EB849F9FB401D0F7B0883 /* SlideMenuControllerSwift.xcconfig */,
+				AF770A7E5492BCF9154B2A73376E2A1D /* SlideMenuControllerSwift-dummy.m */,
+				90072C20BF6A479486F299C6B57B3C60 /* SlideMenuControllerSwift-prefix.pch */,
+				F47CEDFE35DA245A8F723034D40F2101 /* SlideMenuControllerSwift-umbrella.h */,
 			);
-			name = SWRevealViewController;
-			path = SWRevealViewController;
+			name = "Support Files";
+			path = "../Target Support Files/SlideMenuControllerSwift";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -166,29 +196,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		46F8018B70DD7A4DF0CC3B567B149909 /* Support Files */ = {
+		7286D40FFE917FBFB4DFBE376EDE19DF /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3EAE3F67A191BF69699DEA983D05E778 /* Info.plist */,
-				A27F618049BA9267BD7F4DE144D005E2 /* SWRevealViewController.modulemap */,
-				684213E519441074FE8338FBF49E75E9 /* SWRevealViewController.xcconfig */,
-				4C926A7FF96BB78067CD69FEACED8667 /* SWRevealViewController-dummy.m */,
-				BDEE451C9029B9170C9488A472B2F5A5 /* SWRevealViewController-prefix.pch */,
-				49CDBEAF066B98CA67C410DAEC88BD35 /* SWRevealViewController-umbrella.h */,
+				F274DE05A24132112F4A1E286DA1FB57 /* SWRevealViewController.h */,
+				A86CA51923A822103F4D0651C4B92DBA /* SWRevealViewController.m */,
+				FEBB5DB66725E11355B314B1D86A3AC3 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SWRevealViewController";
-			sourceTree = "<group>";
-		};
-		6D77632ED10FF14F367A56634F15CBA4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				052AA8E1863456E6BCFF619C2980651B /* Pods_contactBook.framework */,
-				84AF4451685B9AA84946B4803D9D6F4B /* Pods_contactBookTests.framework */,
-				BB592AAB429CB093A0E5FB0534B8CF57 /* Pods_contactBookUITests.framework */,
-				FE68E518EA6E7511EA9A485E8F36F9C1 /* SWRevealViewController.framework */,
-			);
-			name = Products;
+			name = SWRevealViewController;
+			path = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -196,10 +212,20 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				EF919DCAD7230EFA1F7FA3DC5EA3DDED /* Pods */,
-				6D77632ED10FF14F367A56634F15CBA4 /* Products */,
+				F967334E87238F7BFDA098999950E704 /* Pods */,
+				DAEF27FD3F9344D68BB91F16DC92F6A1 /* Products */,
 				18637B1A3281090BA3153C92EEA7C3A8 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		86E7B572EF1514DB0D2DE42BBCB8190E /* SlideMenuControllerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				90FC9299752B88E039705111BE035A48 /* SlideMenuController.swift */,
+				28C9217E4455CD49FC5E2A624D490BAA /* Support Files */,
+			);
+			name = SlideMenuControllerSwift;
+			path = SlideMenuControllerSwift;
 			sourceTree = "<group>";
 		};
 		B4A34366E17F6E5EFB5EDD5F4725BB70 /* Pods-contactBookTests */ = {
@@ -229,6 +255,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		DAEF27FD3F9344D68BB91F16DC92F6A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADD377E686C1F2A6799FDAACC7F1F7AC /* Pods_contactBook.framework */,
+				7BD0DDACD5D745E5147B26BD80825D11 /* Pods_contactBookTests.framework */,
+				FDEA1D6D99A3A6C90BDC953328C5B21D /* Pods_contactBookUITests.framework */,
+				64A44123CC43DBCC06AF644CC666D5A3 /* SlideMenuControllerSwift.framework */,
+				B916C6B1A2AEFDD18DB1D1838FB03E84 /* SWRevealViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		DB62D9208BDB37DE8717E67D2FDBFE99 /* Pods-contactBookUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,12 +285,27 @@
 			path = "Target Support Files/Pods-contactBookUITests";
 			sourceTree = "<group>";
 		};
-		EF919DCAD7230EFA1F7FA3DC5EA3DDED /* Pods */ = {
+		F967334E87238F7BFDA098999950E704 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2A13413360E4B4F80D82A8FD3341A361 /* SWRevealViewController */,
+				86E7B572EF1514DB0D2DE42BBCB8190E /* SlideMenuControllerSwift */,
+				7286D40FFE917FBFB4DFBE376EDE19DF /* SWRevealViewController */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEBB5DB66725E11355B314B1D86A3AC3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2958DB4ACA0D9B9066A14F06CB1C658 /* Info.plist */,
+				54F1E8AB303AD5203421422E7EBFA255 /* SWRevealViewController.modulemap */,
+				BCE528C0BC0B576351C61C72520D4A89 /* SWRevealViewController.xcconfig */,
+				35C133E6CAB1AD60BBF640932EF64589 /* SWRevealViewController-dummy.m */,
+				A5831B8730ADAAC8A427F4CAB99C1280 /* SWRevealViewController-prefix.pch */,
+				A1CCB7BBB0D5FF2268469E837EF21DC7 /* SWRevealViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SWRevealViewController";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,11 +319,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98C7268A17B200BF3519B59BCB512E6A /* Headers */ = {
+		2E47282FAEFD53B60667B687F31CE94B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14C63B0A9AD2C6FA8CE955AD3633BFAA /* Pods-contactBook-umbrella.h in Headers */,
+				A8BD2CE08CDE5FFA8BE9C2551FEB03D7 /* Pods-contactBook-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926EB34567049BF61ADEBDEAD2FAE38B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2985A36FC3B8B71BF9F2B28D247C9F68 /* SWRevealViewController-umbrella.h in Headers */,
+				4D14E1A2049582119E18FE79335C65A4 /* SWRevealViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD886CD84AF2D2F2535BC13174D24EDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD0343BB0B029187B7C04627C04FD4D /* SlideMenuControllerSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,18 +352,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4FB3AB7943F92856C89521C64964BD9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0CB30728439DEE0374FD5F930D766F93 /* SWRevealViewController-umbrella.h in Headers */,
-				9012C3DD5673DCFB86B1AEAE91AB2052 /* SWRevealViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2F8B514C8DA1F3B885F4448A552AE97A /* SWRevealViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E3DC3EFB79A883B360074F85582EB8 /* Build configuration list for PBXNativeTarget "SWRevealViewController" */;
+			buildPhases = (
+				C536726FAC3B8CA134AAC15ABB4D2E66 /* Sources */,
+				DFDCA22550F553F78A9B4FCAD38D5B97 /* Frameworks */,
+				926EB34567049BF61ADEBDEAD2FAE38B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWRevealViewController;
+			productName = SWRevealViewController;
+			productReference = B916C6B1A2AEFDD18DB1D1838FB03E84 /* SWRevealViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		615605898B01A8744E1BA820416263F2 /* Pods-contactBookTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B058EEB84D5160B727DAF374A5ABDECF /* Build configuration list for PBXNativeTarget "Pods-contactBookTests" */;
@@ -308,42 +386,7 @@
 			);
 			name = "Pods-contactBookTests";
 			productName = "Pods-contactBookTests";
-			productReference = 84AF4451685B9AA84946B4803D9D6F4B /* Pods_contactBookTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8289544D9921B658E2BD9C9A87BA9692 /* Pods-contactBook */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A35224795E2BD5F52EC9FD1693B066EC /* Build configuration list for PBXNativeTarget "Pods-contactBook" */;
-			buildPhases = (
-				B011FF62E10BF66CEFAA99DDA56731BA /* Sources */,
-				A14B190D254E9AF7D0317A29E32A7D92 /* Frameworks */,
-				98C7268A17B200BF3519B59BCB512E6A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B92E2B5E774D491C23334D48402F7407 /* PBXTargetDependency */,
-			);
-			name = "Pods-contactBook";
-			productName = "Pods-contactBook";
-			productReference = 052AA8E1863456E6BCFF619C2980651B /* Pods_contactBook.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8946C4CF49039D35F7349C7DB7453C4D /* SWRevealViewController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 92901C161A44B93A53ED02DF88C5EF21 /* Build configuration list for PBXNativeTarget "SWRevealViewController" */;
-			buildPhases = (
-				BC5C7A1737957B2D2BE5B29C454E32BB /* Sources */,
-				B02C5D22A51350D446EE474BF6F00AA3 /* Frameworks */,
-				E4FB3AB7943F92856C89521C64964BD9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SWRevealViewController;
-			productName = SWRevealViewController;
-			productReference = FE68E518EA6E7511EA9A485E8F36F9C1 /* SWRevealViewController.framework */;
+			productReference = 7BD0DDACD5D745E5147B26BD80825D11 /* Pods_contactBookTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9A06647BE18D376866C5181A5620DB19 /* Pods-contactBookUITests */ = {
@@ -360,7 +403,43 @@
 			);
 			name = "Pods-contactBookUITests";
 			productName = "Pods-contactBookUITests";
-			productReference = BB592AAB429CB093A0E5FB0534B8CF57 /* Pods_contactBookUITests.framework */;
+			productReference = FDEA1D6D99A3A6C90BDC953328C5B21D /* Pods_contactBookUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAF980838C805507901F8F7D478770FD /* SlideMenuControllerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9462BFBB661FD4EEF0FC75C3003E1EDC /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */;
+			buildPhases = (
+				0BE66EA3AC0613E392D5ABE37B52AC8D /* Sources */,
+				2C2CACCA487763C4E20C85E7FB5AF2D1 /* Frameworks */,
+				CD886CD84AF2D2F2535BC13174D24EDF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideMenuControllerSwift;
+			productName = SlideMenuControllerSwift;
+			productReference = 64A44123CC43DBCC06AF644CC666D5A3 /* SlideMenuControllerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE6CF07FCC6D3B43328A21CCE200F765 /* Pods-contactBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B78C812E88DE9EE7D5F4102ABD4BF26 /* Build configuration list for PBXNativeTarget "Pods-contactBook" */;
+			buildPhases = (
+				CC5F2FC3930EC9339844A60051DAE9BF /* Sources */,
+				8B36FC2ABF1146431569A4CA6E463E49 /* Frameworks */,
+				2E47282FAEFD53B60667B687F31CE94B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2FBC933226C12F7E782D0F2F6D2B569 /* PBXTargetDependency */,
+				CEF07AAC77C317C86641BF686CE982F3 /* PBXTargetDependency */,
+			);
+			name = "Pods-contactBook";
+			productName = "Pods-contactBook";
+			productReference = ADD377E686C1F2A6799FDAACC7F1F7AC /* Pods_contactBook.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -380,19 +459,29 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6D77632ED10FF14F367A56634F15CBA4 /* Products */;
+			productRefGroup = DAEF27FD3F9344D68BB91F16DC92F6A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8289544D9921B658E2BD9C9A87BA9692 /* Pods-contactBook */,
+				FE6CF07FCC6D3B43328A21CCE200F765 /* Pods-contactBook */,
 				615605898B01A8744E1BA820416263F2 /* Pods-contactBookTests */,
 				9A06647BE18D376866C5181A5620DB19 /* Pods-contactBookUITests */,
-				8946C4CF49039D35F7349C7DB7453C4D /* SWRevealViewController */,
+				FAF980838C805507901F8F7D478770FD /* SlideMenuControllerSwift */,
+				2F8B514C8DA1F3B885F4448A552AE97A /* SWRevealViewController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0BE66EA3AC0613E392D5ABE37B52AC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE5DF8FB2A9728F0CC37F4846F47533 /* SlideMenuController.swift in Sources */,
+				46A1AA7A28D0E15F7F0AC72F838B4E09 /* SlideMenuControllerSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48B782E283C698E4922DAE6D8A2F0FA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,35 +498,80 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B011FF62E10BF66CEFAA99DDA56731BA /* Sources */ = {
+		C536726FAC3B8CA134AAC15ABB4D2E66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49B438C1762BE08A4122C9851D2B0C89 /* Pods-contactBook-dummy.m in Sources */,
+				DDB5DC9B6DD7D2209801A55BC331690F /* SWRevealViewController-dummy.m in Sources */,
+				37C3D86D4ABC69FE47195882C13F97DA /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC5C7A1737957B2D2BE5B29C454E32BB /* Sources */ = {
+		CC5F2FC3930EC9339844A60051DAE9BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				808713B5883B2705DBE0A3A760552D6A /* SWRevealViewController-dummy.m in Sources */,
-				626321C5C56957A758C3FE3613096D9E /* SWRevealViewController.m in Sources */,
+				A038E7BDA128473042FF06B6D54D54B1 /* Pods-contactBook-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B92E2B5E774D491C23334D48402F7407 /* PBXTargetDependency */ = {
+		CEF07AAC77C317C86641BF686CE982F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SlideMenuControllerSwift;
+			target = FAF980838C805507901F8F7D478770FD /* SlideMenuControllerSwift */;
+			targetProxy = DCC41C2E30464122FA3A2C482BA8471C /* PBXContainerItemProxy */;
+		};
+		F2FBC933226C12F7E782D0F2F6D2B569 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SWRevealViewController;
-			target = 8946C4CF49039D35F7349C7DB7453C4D /* SWRevealViewController */;
-			targetProxy = 0EFAC0D8413B4AE863EC142B8985CC8B /* PBXContainerItemProxy */;
+			target = 2F8B514C8DA1F3B885F4448A552AE97A /* SWRevealViewController */;
+			targetProxy = 133E1E0018005B47CA2437938BBA80D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0A10AF56FFECFD2E94367B152FFEE95B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB59DBCF42FD4F00EAFCBE251BBF7422 /* Pods-contactBook.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-contactBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-contactBook/Pods-contactBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_contactBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		153F1B3C701A9D5831B2A8024543BE69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 247C8F5C15D0C4156F7245A80DB04CEB /* Pods-contactBookTests.debug.xcconfig */;
@@ -522,6 +656,40 @@
 			};
 			name = Debug;
 		};
+		1855E988506AB17394E43A5CCE8BB729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E0A2E0E71EB849F9FB401D0F7B0883 /* SlideMenuControllerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SlideMenuControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		26C1EBC43907622E568A95B9FFCA9865 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A633FA7855370AD6F608E92C32CD03A /* Pods-contactBookTests.release.xcconfig */;
@@ -557,111 +725,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		33A44C8132803C058952E168123550EA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB59DBCF42FD4F00EAFCBE251BBF7422 /* Pods-contactBook.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-contactBook/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-contactBook/Pods-contactBook.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_contactBook;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6255FEC7C97CC461F33EAE336AB49AA8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C820A5073CF557A66910BE562C61FFF /* Pods-contactBook.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-contactBook/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-contactBook/Pods-contactBook.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_contactBook;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		66703C5B3027AD66A3095DFC14D73B18 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 684213E519441074FE8338FBF49E75E9 /* SWRevealViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SWRevealViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SWRevealViewController/SWRevealViewController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SWRevealViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		707B86CFB21B645E37109F39754D4051 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -743,6 +806,39 @@
 			};
 			name = Release;
 		};
+		9E0090F7E935B4570B70CDAEC6FD07E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE528C0BC0B576351C61C72520D4A89 /* SWRevealViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWRevealViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWRevealViewController/SWRevealViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SWRevealViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C6E7ABFF082514CD0CF6F7E0BA1D138C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D83580201EF7D283F4ADAFF56325D13 /* Pods-contactBookUITests.debug.xcconfig */;
@@ -779,9 +875,9 @@
 			};
 			name = Debug;
 		};
-		E0F2E8D0C67801B79BEA71AA2AFA1F0B /* Release */ = {
+		CD8E599879A82694E38DD20771E42A97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 684213E519441074FE8338FBF49E75E9 /* SWRevealViewController.xcconfig */;
+			baseConfigurationReference = BCE528C0BC0B576351C61C72520D4A89 /* SWRevealViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -812,9 +908,91 @@
 			};
 			name = Release;
 		};
+		CE14C9990143DEE2B227D5ACE2B6E553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C820A5073CF557A66910BE562C61FFF /* Pods-contactBook.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-contactBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-contactBook/Pods-contactBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_contactBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9F989B55B2E6592D8EBCBB41423FE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E0A2E0E71EB849F9FB401D0F7B0883 /* SlideMenuControllerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SlideMenuControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		10E3DC3EFB79A883B360074F85582EB8 /* Build configuration list for PBXNativeTarget "SWRevealViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E0090F7E935B4570B70CDAEC6FD07E0 /* Debug */,
+				CD8E599879A82694E38DD20771E42A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -824,20 +1002,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92901C161A44B93A53ED02DF88C5EF21 /* Build configuration list for PBXNativeTarget "SWRevealViewController" */ = {
+		7B78C812E88DE9EE7D5F4102ABD4BF26 /* Build configuration list for PBXNativeTarget "Pods-contactBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66703C5B3027AD66A3095DFC14D73B18 /* Debug */,
-				E0F2E8D0C67801B79BEA71AA2AFA1F0B /* Release */,
+				0A10AF56FFECFD2E94367B152FFEE95B /* Debug */,
+				CE14C9990143DEE2B227D5ACE2B6E553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A35224795E2BD5F52EC9FD1693B066EC /* Build configuration list for PBXNativeTarget "Pods-contactBook" */ = {
+		9462BFBB661FD4EEF0FC75C3003E1EDC /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33A44C8132803C058952E168123550EA /* Debug */,
-				6255FEC7C97CC461F33EAE336AB49AA8 /* Release */,
+				F9F989B55B2E6592D8EBCBB41423FE3B /* Debug */,
+				1855E988506AB17394E43A5CCE8BB729 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
