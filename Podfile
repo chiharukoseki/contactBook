@@ -6,7 +6,9 @@ target 'contactBook' do
   use_frameworks!
 
   # Pods for contactBook
-pod  'SWRevealViewController'
+pod 'SWRevealViewController'
+pod 'SlideMenuControllerSwift'
+
 
   target 'contactBookTests' do
     inherit! :search_paths

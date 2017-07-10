@@ -15,7 +15,6 @@
 		ACE4CC801F0CA43E009C8DB2 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE4CC7F1F0CA43E009C8DB2 /* Storyboard.storyboard */; };
 		ACE4CC821F0CA490009C8DB2 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CC811F0CA490009C8DB2 /* LeftViewController.swift */; };
 		ACE4CC841F0CA500009C8DB2 /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CC831F0CA500009C8DB2 /* SlideViewController.swift */; };
-		EFB1642C1F0B2E8000B02B58 /* boya3.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB1642B1F0B2E8000B02B58 /* boya3.png */; };
 		EFC5A7561F00A6AA00193BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5A7551F00A6AA00193BFB /* AppDelegate.swift */; };
 		EFC5A7581F00A6AA00193BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5A7571F00A6AA00193BFB /* ViewController.swift */; };
 		EFC5A75B1F00A6AA00193BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC5A7591F00A6AA00193BFB /* Main.storyboard */; };
@@ -62,7 +61,6 @@
 		ACE4CC811F0CA490009C8DB2 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		ACE4CC831F0CA500009C8DB2 /* SlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
 		EF227B081F0B6BED00408E08 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		EFB1642B1F0B2E8000B02B58 /* boya3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boya3.png; path = ../../../../Desktop/boya3.png; sourceTree = "<group>"; };
 		EFC5A7521F00A6AA00193BFB /* contactBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contactBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC5A7551F00A6AA00193BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFC5A7571F00A6AA00193BFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -150,7 +148,6 @@
 		EFC5A7541F00A6AA00193BFB /* contactBook */ = {
 			isa = PBXGroup;
 			children = (
-				EFB1642B1F0B2E8000B02B58 /* boya3.png */,
 				EFC5A7551F00A6AA00193BFB /* AppDelegate.swift */,
 				EFC5A75C1F00A6AA00193BFB /* Assets.xcassets */,
 				EFC5A7611F00A6AA00193BFB /* Info.plist */,
@@ -323,7 +320,6 @@
 			files = (
 				EFD6A8881F09DC9B00BAC4D3 /* home.storyboard in Resources */,
 				EFD6A88A1F09DD2300BAC4D3 /* notification.storyboard in Resources */,
-				EFB1642C1F0B2E8000B02B58 /* boya3.png in Resources */,
 				EFD6A8861F09DC3700BAC4D3 /* login.storyboard in Resources */,
 				EFC5A7601F00A6AA00193BFB /* LaunchScreen.storyboard in Resources */,
 				ACA731C11F0B1B2E008AB208 /* stamp.storyboard in Resources */,
