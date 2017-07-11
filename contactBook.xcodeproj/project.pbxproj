@@ -15,6 +15,7 @@
 		ACE4CC821F0CA490009C8DB2 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CC811F0CA490009C8DB2 /* LeftViewController.swift */; };
 		ACE4CC841F0CA500009C8DB2 /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CC831F0CA500009C8DB2 /* SlideViewController.swift */; };
 		EF25D7A81F145A9F008D3547 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF25D7A71F145A9F008D3547 /* MainViewController.swift */; };
+		EF25D7AA1F148ECC008D3547 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = EF25D7A91F148ECC008D3547 /* menu.png */; };
 		EFC5A7561F00A6AA00193BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5A7551F00A6AA00193BFB /* AppDelegate.swift */; };
 		EFC5A7581F00A6AA00193BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5A7571F00A6AA00193BFB /* ViewController.swift */; };
 		EFC5A75B1F00A6AA00193BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC5A7591F00A6AA00193BFB /* Main.storyboard */; };
@@ -61,6 +62,7 @@
 		ACE4CC831F0CA500009C8DB2 /* SlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
 		EF227B081F0B6BED00408E08 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		EF25D7A71F145A9F008D3547 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EF25D7A91F148ECC008D3547 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = ../../../../Downloads/menu.png; sourceTree = "<group>"; };
 		EFC5A7521F00A6AA00193BFB /* contactBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contactBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC5A7551F00A6AA00193BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFC5A7571F00A6AA00193BFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				EFD6A8951F09E3C900BAC4D3 /* notificationViewController.swift */,
 				ACA731C01F0B1B2E008AB208 /* stamp.storyboard */,
 				EF25D7A71F145A9F008D3547 /* MainViewController.swift */,
+				EF25D7A91F148ECC008D3547 /* menu.png */,
 			);
 			path = contactBook;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			files = (
 				EFD6A8881F09DC9B00BAC4D3 /* home.storyboard in Resources */,
 				EFD6A88A1F09DD2300BAC4D3 /* notification.storyboard in Resources */,
+				EF25D7AA1F148ECC008D3547 /* menu.png in Resources */,
 				EFD6A8861F09DC3700BAC4D3 /* login.storyboard in Resources */,
 				EFC5A7601F00A6AA00193BFB /* LaunchScreen.storyboard in Resources */,
 				ACA731C11F0B1B2E008AB208 /* stamp.storyboard in Resources */,

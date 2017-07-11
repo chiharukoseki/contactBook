@@ -20,7 +20,9 @@ class MainViewController: UIViewController {
         //NavigationBarに乗っている部品の色を変更します
         navigationController?.navigationBar.tintColor = UIColor.white
         //バーの左側にボタンを配置します(ライブラリ特有)
-        //addLeftBarButtonWithImage(UIImage(named: "menu")!)
+        addLeftBarButtonWithImage(UIImage(named: "menu")!)
+        //タイトル設定
+        self.navigationItem.title = "良い感じ〜"
     }
     
     @IBOutlet weak var menuButton: UIBarButtonItem!
