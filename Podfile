@@ -9,7 +9,9 @@ target 'contactBook' do
 pod 'SWRevealViewController'
 pod 'SlideMenuControllerSwift'
 
-
+pod 'JSQMessagesViewController'
+pod 'Firebase'
+pod 'Firebase/Database'
   target 'contactBookTests' do
     inherit! :search_paths
     # Pods for testing

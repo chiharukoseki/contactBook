@@ -23,12 +23,34 @@ class MainViewController: UIViewController {
         addLeftBarButtonWithImage(UIImage(named: "menu")!)
         //タイトル設定
         self.navigationItem.title = "良い感じ〜"
+//        ---------------------
+        let button = UIButton()
+        button.setTitle("ボタン", for: .normal)
+        button.setTitleColor(UIColor.blue, for: .normal)
+        button.addTarget(self, action: #selector(buttonEvent(sender:)), for: .touchUpInside)
+        button.sizeToFit()
+        button.center = self.view.center
+        self.view.addSubview(button)
+        
+        
+//        ---------------------チャット画面に遷移させるために作ったボタン、いらないやつ
+        
     }
     
     @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBAction func munuButton(_ sender: Any) {
         
     }
+//    ----------------------
+    
+    func buttonEvent(sender: UIButton) {
+        let storyboard: UIStoryboard = UIStoryboard(name: "chat", bundle: nil)
+        let nextView = storyboard.instantiateViewController(withIdentifier: "chat") as! chat
+        self.present(nextView, animated: true, completion: nil)
+    }
+    
+    
+//    ----------------------ここチャットに飛ばすために書いてるだけ、いらないやつ
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

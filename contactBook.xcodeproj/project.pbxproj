@@ -10,12 +10,15 @@
 		028FB9824B9FD8A264D746E1 /* Pods_contactBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F5443AF00CE034A3FBA37A /* Pods_contactBook.framework */; };
 		3C0DEB7BD095CEB8B2C7754B /* Pods_contactBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A5652891FC527A6D6A9EAD /* Pods_contactBookTests.framework */; };
 		7B578CC202818053980A81C0 /* Pods_contactBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3494E06C8E1F4EFC399C11 /* Pods_contactBookUITests.framework */; };
+		A38B92C31F17140A008135C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A38B92C21F17140A008135C7 /* GoogleService-Info.plist */; };
+		A3D015F01F161EF3000FF8F5 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D015EF1F161EF3000FF8F5 /* menu.png */; };
+		A3D015F21F161FCE000FF8F5 /* chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D015F11F161FCE000FF8F5 /* chat.swift */; };
+		A3D015F41F161FEF000FF8F5 /* chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D015F31F161FEF000FF8F5 /* chat.storyboard */; };
 		ACA731C11F0B1B2E008AB208 /* stamp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA731C01F0B1B2E008AB208 /* stamp.storyboard */; };
 		ACE4CC801F0CA43E009C8DB2 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE4CC7F1F0CA43E009C8DB2 /* Storyboard.storyboard */; };
 		ACE4CC821F0CA490009C8DB2 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CC811F0CA490009C8DB2 /* LeftViewController.swift */; };
 		ACE4CC841F0CA500009C8DB2 /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CC831F0CA500009C8DB2 /* SlideViewController.swift */; };
 		EF25D7A81F145A9F008D3547 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF25D7A71F145A9F008D3547 /* MainViewController.swift */; };
-		EF25D7AA1F148ECC008D3547 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = EF25D7A91F148ECC008D3547 /* menu.png */; };
 		EFC5A7561F00A6AA00193BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5A7551F00A6AA00193BFB /* AppDelegate.swift */; };
 		EFC5A7581F00A6AA00193BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5A7571F00A6AA00193BFB /* ViewController.swift */; };
 		EFC5A75B1F00A6AA00193BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC5A7591F00A6AA00193BFB /* Main.storyboard */; };
@@ -56,13 +59,16 @@
 		77A5652891FC527A6D6A9EAD /* Pods_contactBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_contactBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81986FAD6B10BE2ECD06EC35 /* Pods-contactBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contactBookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-contactBookUITests/Pods-contactBookUITests.release.xcconfig"; sourceTree = "<group>"; };
 		963B4592B5CECD5C260343E7 /* Pods-contactBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contactBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-contactBookTests/Pods-contactBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A38B92C21F17140A008135C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A3D015EF1F161EF3000FF8F5 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = ../../Downloads/menu.png; sourceTree = "<group>"; };
+		A3D015F11F161FCE000FF8F5 /* chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chat.swift; sourceTree = "<group>"; };
+		A3D015F31F161FEF000FF8F5 /* chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = chat.storyboard; sourceTree = "<group>"; };
 		ACA731C01F0B1B2E008AB208 /* stamp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = stamp.storyboard; sourceTree = "<group>"; };
 		ACE4CC7F1F0CA43E009C8DB2 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		ACE4CC811F0CA490009C8DB2 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		ACE4CC831F0CA500009C8DB2 /* SlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
 		EF227B081F0B6BED00408E08 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		EF25D7A71F145A9F008D3547 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		EF25D7A91F148ECC008D3547 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = ../../../../Downloads/menu.png; sourceTree = "<group>"; };
 		EFC5A7521F00A6AA00193BFB /* contactBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contactBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC5A7551F00A6AA00193BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFC5A7571F00A6AA00193BFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -160,14 +166,17 @@
 				ACE4CC811F0CA490009C8DB2 /* LeftViewController.swift */,
 				EFC5A7571F00A6AA00193BFB /* ViewController.swift */,
 				EFD6A8871F09DC9B00BAC4D3 /* home.storyboard */,
+				A3D015EF1F161EF3000FF8F5 /* menu.png */,
 				EFD6A8971F09E3DE00BAC4D3 /* homeViewController.swift */,
 				EFD6A8851F09DC3700BAC4D3 /* login.storyboard */,
+				A3D015F11F161FCE000FF8F5 /* chat.swift */,
+				A3D015F31F161FEF000FF8F5 /* chat.storyboard */,
 				EFD6A8931F09E3A900BAC4D3 /* loginViewController.swift */,
 				EFD6A8891F09DD2300BAC4D3 /* notification.storyboard */,
 				EFD6A8951F09E3C900BAC4D3 /* notificationViewController.swift */,
 				ACA731C01F0B1B2E008AB208 /* stamp.storyboard */,
 				EF25D7A71F145A9F008D3547 /* MainViewController.swift */,
-				EF25D7A91F148ECC008D3547 /* menu.png */,
+				A38B92C21F17140A008135C7 /* GoogleService-Info.plist */,
 			);
 			path = contactBook;
 			sourceTree = "<group>";
@@ -323,11 +332,13 @@
 			files = (
 				EFD6A8881F09DC9B00BAC4D3 /* home.storyboard in Resources */,
 				EFD6A88A1F09DD2300BAC4D3 /* notification.storyboard in Resources */,
-				EF25D7AA1F148ECC008D3547 /* menu.png in Resources */,
+				A3D015F41F161FEF000FF8F5 /* chat.storyboard in Resources */,
+				A3D015F01F161EF3000FF8F5 /* menu.png in Resources */,
 				EFD6A8861F09DC3700BAC4D3 /* login.storyboard in Resources */,
 				EFC5A7601F00A6AA00193BFB /* LaunchScreen.storyboard in Resources */,
 				ACA731C11F0B1B2E008AB208 /* stamp.storyboard in Resources */,
 				EFC5A75D1F00A6AA00193BFB /* Assets.xcassets in Resources */,
+				A38B92C31F17140A008135C7 /* GoogleService-Info.plist in Resources */,
 				EFC5A75B1F00A6AA00193BFB /* Main.storyboard in Resources */,
 				ACE4CC801F0CA43E009C8DB2 /* Storyboard.storyboard in Resources */,
 			);
@@ -496,6 +507,7 @@
 				EFC5A7561F00A6AA00193BFB /* AppDelegate.swift in Sources */,
 				EFD6A8961F09E3C900BAC4D3 /* notificationViewController.swift in Sources */,
 				ACE4CC821F0CA490009C8DB2 /* LeftViewController.swift in Sources */,
+				A3D015F21F161FCE000FF8F5 /* chat.swift in Sources */,
 				EFD6A8981F09E3DE00BAC4D3 /* homeViewController.swift in Sources */,
 				ACE4CC841F0CA500009C8DB2 /* SlideViewController.swift in Sources */,
 				EFD6A8941F09E3A900BAC4D3 /* loginViewController.swift in Sources */,
