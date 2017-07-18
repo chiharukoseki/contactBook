@@ -26,11 +26,11 @@ class chat: JSQMessagesViewController {
         senderId = sendUser
  //--------------------------------------------------------------
         let ref = Database.database().reference()
-        ref.observe(.value, with: { snapshot in
+        ref.child("talks").observe(.value, with: { snapshot in
             guard let dic = snapshot.value as? Dictionary<String, AnyObject> else {
                 return
             }
-            guard let posts = dic["talks"] as? Dictionary<String, Dictionary<String, AnyObject>> else {
+            guard let posts = dic[self.sendUser] as? Dictionary<String, Dictionary<String, AnyObject>> else {
                 return
             }
            // guard let masse = posts["福本"] as? Dictionary<String, Dictionary<String, Dictionary<String, AnyObject>>> else{
