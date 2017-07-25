@@ -9,34 +9,28 @@
 import UIKit
 
 class loginViewController: UIViewController {
-
+    
+    
+    
+    
+    @IBOutlet weak var webView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        //文字列をURlに変換
+        let favoriteURL = URL(string: "https://electric-contact-book-swill.c9users.io/")!
+        //URLをネットワーク接続可能な状態に変換する
+        let urlRequest = URLRequest(url: favoriteURL)
+        //webViewに映す
+        self.webView.loadRequest(urlRequest as URLRequest)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    
-    @IBOutlet weak var label: UILabel!
-    
-    
-    @IBOutlet weak var mailTextBox: UITextField!
-    @IBAction func mailTextBox(_ sender: Any) {
-    }
-    
-    @IBOutlet weak var passTextBox: UITextField!
-    @IBAction func passTextBox(_ sender: Any) {
-    }
-    
-    @IBOutlet weak var loginButton: UIButton!
-    @IBAction func loginButton(_ sender: Any) {
-    }
-
     /*
     // MARK: - Navigation
 

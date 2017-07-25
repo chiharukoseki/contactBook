@@ -29,6 +29,7 @@
 		EFD6A8941F09E3A900BAC4D3 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD6A8931F09E3A900BAC4D3 /* loginViewController.swift */; };
 		EFD6A8961F09E3C900BAC4D3 /* notificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD6A8951F09E3C900BAC4D3 /* notificationViewController.swift */; };
 		EFD6A8981F09E3DE00BAC4D3 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD6A8971F09E3DE00BAC4D3 /* homeViewController.swift */; };
+		EFF3CBC91F25802D00F678EE /* database.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3CBC81F25802D00F678EE /* database.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		EFD6A8931F09E3A900BAC4D3 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		EFD6A8951F09E3C900BAC4D3 /* notificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notificationViewController.swift; sourceTree = "<group>"; };
 		EFD6A8971F09E3DE00BAC4D3 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		EFF3CBC81F25802D00F678EE /* database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = database.swift; sourceTree = "<group>"; };
 		FC3494E06C8E1F4EFC399C11 /* Pods_contactBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_contactBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDBFC420B8518876DF296D73 /* Pods-contactBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contactBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-contactBook/Pods-contactBook.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,6 +170,7 @@
 				ACA731C01F0B1B2E008AB208 /* stamp.storyboard */,
 				EF25D7A71F145A9F008D3547 /* MainViewController.swift */,
 				EF25D7A91F148ECC008D3547 /* menu.png */,
+				EFF3CBC81F25802D00F678EE /* database.swift */,
 			);
 			path = contactBook;
 			sourceTree = "<group>";
@@ -497,6 +500,7 @@
 				EFD6A8961F09E3C900BAC4D3 /* notificationViewController.swift in Sources */,
 				ACE4CC821F0CA490009C8DB2 /* LeftViewController.swift in Sources */,
 				EFD6A8981F09E3DE00BAC4D3 /* homeViewController.swift in Sources */,
+				EFF3CBC91F25802D00F678EE /* database.swift in Sources */,
 				ACE4CC841F0CA500009C8DB2 /* SlideViewController.swift in Sources */,
 				EFD6A8941F09E3A900BAC4D3 /* loginViewController.swift in Sources */,
 				EF25D7A81F145A9F008D3547 /* MainViewController.swift in Sources */,

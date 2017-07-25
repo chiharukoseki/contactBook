@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iKw-27-Duc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Login View Controller-->
         <scene sceneID="aSQ-Hp-xwo">
             <objects>
-                <viewController id="iKw-27-Duc" customClass="loginViewController" customModule="contactBook" sceneMemberID="viewController">
+                <viewController id="iKw-27-Duc" customClass="loginViewController" customModule="contactBook" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Kqy-Vx-i6J"/>
                         <viewControllerLayoutGuide type="bottom" id="6Xa-b5-LDk"/>
@@ -22,63 +21,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="電子連絡帳" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="036-Em-17O">
-                                <rect key="frame" x="78" y="56" width="219" height="50.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wTC-81-ASe">
-                                <rect key="frame" x="82" y="230" width="210" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="210" id="nez-Ea-9jY"/>
-                                    <constraint firstAttribute="height" constant="30" id="o6h-in-Qhh"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="mailTextBox:" destination="iKw-27-Duc" eventType="editingDidEnd" id="dI5-fy-H61"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4WG-KJ-lRf">
-                                <rect key="frame" x="82" y="290" width="210" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="passTextBox:" destination="iKw-27-Duc" eventType="editingDidEnd" id="qJJ-ZK-W9L"/>
-                                </connections>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEa-v1-crc">
-                                <rect key="frame" x="238" y="345" width="62" height="30"/>
-                                <state key="normal" title="ログイン"/>
-                                <connections>
-                                    <action selector="loginButton:" destination="iKw-27-Duc" eventType="touchUpInside" id="3JM-xi-Kxd"/>
-                                </connections>
-                            </button>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RhU-uM-gSB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wTC-81-ASe" firstAttribute="top" secondItem="036-Em-17O" secondAttribute="bottom" constant="123.5" id="06G-Or-Y9U"/>
-                            <constraint firstItem="wTC-81-ASe" firstAttribute="leading" secondItem="7Db-rE-bR8" secondAttribute="leadingMargin" constant="66" id="6pf-D3-XPv"/>
-                            <constraint firstItem="036-Em-17O" firstAttribute="leading" secondItem="7Db-rE-bR8" secondAttribute="leadingMargin" constant="62" id="9kK-h1-EXO"/>
-                            <constraint firstItem="gEa-v1-crc" firstAttribute="top" secondItem="4WG-KJ-lRf" secondAttribute="bottom" constant="25" id="F30-q0-upQ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="gEa-v1-crc" secondAttribute="trailing" constant="59" id="MZw-zv-jgw"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="4WG-KJ-lRf" secondAttribute="trailing" constant="67" id="dJs-Oa-fFQ"/>
-                            <constraint firstItem="4WG-KJ-lRf" firstAttribute="leading" secondItem="7Db-rE-bR8" secondAttribute="leadingMargin" constant="66" id="ddd-Rk-rDP"/>
-                            <constraint firstItem="4WG-KJ-lRf" firstAttribute="top" secondItem="wTC-81-ASe" secondAttribute="bottom" constant="30" id="edh-Cc-gNh"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="036-Em-17O" secondAttribute="trailing" constant="62" id="grd-k7-J31"/>
-                            <constraint firstItem="036-Em-17O" firstAttribute="top" secondItem="Kqy-Vx-i6J" secondAttribute="bottom" constant="36" id="j6A-Eq-3ch"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="wTC-81-ASe" secondAttribute="trailing" constant="67" id="woU-vN-TOO"/>
+                            <constraint firstItem="RhU-uM-gSB" firstAttribute="leading" secondItem="7Db-rE-bR8" secondAttribute="leading" id="LZJ-ai-goz"/>
+                            <constraint firstItem="RhU-uM-gSB" firstAttribute="top" secondItem="7Db-rE-bR8" secondAttribute="top" id="NVj-DP-fqs"/>
+                            <constraint firstItem="6Xa-b5-LDk" firstAttribute="top" secondItem="RhU-uM-gSB" secondAttribute="bottom" id="RYs-2U-ZhN"/>
+                            <constraint firstAttribute="trailing" secondItem="RhU-uM-gSB" secondAttribute="trailing" id="cyu-sB-CQd"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="label" destination="036-Em-17O" id="iAV-NH-MH0"/>
-                        <outlet property="loginButton" destination="gEa-v1-crc" id="ggw-XR-Y1p"/>
-                        <outlet property="mailTextBox" destination="wTC-81-ASe" id="8rz-hW-Xmb"/>
-                        <outlet property="passTextBox" destination="4WG-KJ-lRf" id="8Cr-ZG-TfH"/>
-                        <outlet property="title" destination="036-Em-17O" id="M2j-8T-qXD"/>
+                        <outlet property="webView" destination="RhU-uM-gSB" id="toU-h1-vxU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bTo-Fq-Wbz" userLabel="First Responder" sceneMemberID="firstResponder"/>
