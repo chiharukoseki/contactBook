@@ -24,31 +24,67 @@ class chat: JSQMessagesViewController {
         super.viewDidLoad()
         senderDisplayName = sendUser
         senderId = sendUser
+        
  //--------------------------------------------------------------
         let ref = Database.database().reference()
-        ref.observe(.value, with: { snapshot in
+        ref.child("talks").observe(.value, with: { snapshot in
             guard let dic = snapshot.value as? Dictionary<String, AnyObject> else {
                 return
             }
-            guard let posts = dic["talks"] as? Dictionary<String, Dictionary<String, AnyObject>> else {
+            guard let posts = dic[self.sendUser] as? Dictionary<String, Dictionary<String, AnyObject>> else {
                 return
             }
-           // guard let masse = posts["福本"] as? Dictionary<String, Dictionary<String, Dictionary<String, AnyObject>>> else{
-           //    return
-          // }
+            // guard let masse = posts["福本"] as? Dictionary<String, Dictionary<String, Dictionary<String, AnyObject>>> else{
+            //    return
+            // }
             
-            self.messages = posts.values.map {dic  in
-                let senderId = dic["senderId"] ?? "" as AnyObject
-                let text = dic["text"] ?? "" as AnyObject
-                let displayName = dic["displayName"] ?? "" as AnyObject
-                print(senderId,displayName)
-                return JSQMessage(senderId: senderId as! String,  displayName: displayName as! String, text: text as! String)
+            var keyValueArray: [(String, Int)] = []
+            for (key, value) in posts {
+                keyValueArray.append((key: key, date: value["date"] as! Int))
             }
+            keyValueArray.sort{$0.1 < $1.1}             // タプルの中のdate でソートしてタプルの順番を揃える(配列で) これでkeyが順番通りになる
+            // messagesを再構成
+            var preMessages = [JSQMessage]()
+            
+            for sortedTuple in keyValueArray{
+                for (key, value) in posts {
+                    if key == sortedTuple.0 {           // 揃えた順番通りにメッセージを作成
+                        let senderId = value["senderId"] as! String!
+                        let text = value["text"] as! String!
+                        let displayName = value["displayName"] as! String!
+                        preMessages.append(JSQMessage(senderId: senderId, displayName: displayName, text: text))
+                    }
+                }
+            }
+            self.messages = preMessages
+            
             self.collectionView.reloadData()
-        }
-        )
-//----------------------------------------------------------------この辺おかしいあるよ　わかってるけど降りれないのよ・・・・
+        })
     }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+//            self.messages = posts.values.map {dic  in
+//                let senderId = dic["senderId"] ?? "" as AnyObject
+//                let text = dic["text"] ?? "" as AnyObject
+//                let displayName = dic["displayName"] ?? "" as AnyObject
+//                print(senderId,displayName)
+//                return JSQMessage(senderId: senderId as! String,  displayName: displayName as! String, text: text as! String)
+//            }
+//            self.collectionView.reloadData()
+//        }
+//        )
+//----------------------------------------------------------------この辺おかしいあるよ　わかってるけど降りれないのよ・・・・
+//    }
 
     
     
@@ -93,7 +129,7 @@ class chat: JSQMessagesViewController {
     override func didPressSend(_ button: UIButton!, withMessageText text: String!, senderId: String!, senderDisplayName: String!, date: Date!) {
         inputToolbar.contentView.textView.text = ""
         let ref = Database.database().reference()
-        ref.child("talks").child(senderId).childByAutoId().setValue(["name":readerUser,"text": text])
+        ref.child("talks").child(senderId).childByAutoId().setValue(["name":senderDisplayName,"text": text,"senderId":senderId,"date": [".sv": "timestamp"]])
         //ref.child("talks").childByAutoId().setValue(["senderId": senderId, "text": text, "displayName": senderDisplayName])
     }
     
