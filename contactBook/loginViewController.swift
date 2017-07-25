@@ -19,7 +19,7 @@ class loginViewController: UIViewController {
         super.viewDidLoad()
         
         //文字列をURlに変換
-        let favoriteURL = URL(string: "https://electric-contact-book-swill.c9users.io/")!
+        let favoriteURL = URL(string: "https://electric-contact-book-swill.c9users.io/loginUser.php")!
         //URLをネットワーク接続可能な状態に変換する
         let urlRequest = URLRequest(url: favoriteURL)
         //webViewに映す
