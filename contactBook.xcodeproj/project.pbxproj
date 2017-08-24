@@ -289,6 +289,7 @@
 				TargetAttributes = {
 					EFC5A7511F00A6AA00193BFB = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5V89BB5PY3;
 						ProvisioningStyle = Automatic;
 					};
 					EFC5A7651F00A6AB00193BFB = {
@@ -668,7 +669,7 @@
 			baseConfigurationReference = FDBFC420B8518876DF296D73 /* Pods-contactBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5V89BB5PY3;
 				INFOPLIST_FILE = contactBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.contactBook;
@@ -683,7 +684,7 @@
 			baseConfigurationReference = 4E352CB46DE05052790C2B5D /* Pods-contactBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5V89BB5PY3;
 				INFOPLIST_FILE = contactBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.contactBook;

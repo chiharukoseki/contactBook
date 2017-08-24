@@ -13,6 +13,7 @@ import FirebaseDatabase
 
 
 class chat: JSQMessagesViewController {
+
     
     let sendUser = "福本"
     var messages: [JSQMessage] = []
@@ -102,6 +103,10 @@ class chat: JSQMessagesViewController {
         inputToolbar.contentView.textView.text = ""
         let ref = Database.database().reference()
         ref.child("talks").child(senderId).childByAutoId().setValue(["senderId": senderId, "text": text, "displayName": senderDisplayName,"date":[".sv": "timestamp"]])
+        button.isEnabled = false
+        self.view.endEditing(true)
     }
+
+
     
 }
