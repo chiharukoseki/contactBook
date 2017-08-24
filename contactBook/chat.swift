@@ -13,11 +13,8 @@ import FirebaseDatabase
 
 
 class chat: JSQMessagesViewController {
+    
     let sendUser = "福本"
-    let readerUser = "中西先生"
-    let flag = false
-    
-    
     var messages: [JSQMessage] = []
     
     override func viewDidLoad() {
@@ -25,28 +22,27 @@ class chat: JSQMessagesViewController {
         senderDisplayName = sendUser
         senderId = sendUser
         
- //--------------------------------------------------------------
         let ref = Database.database().reference()
-        ref.child("talks").observe(.value, with: { snapshot in
+        ref.observe(.value, with: { snapshot in
             guard let dic = snapshot.value as? Dictionary<String, AnyObject> else {
                 return
             }
-            guard let posts = dic[self.sendUser] as? Dictionary<String, Dictionary<String, AnyObject>> else {
+            guard let post = dic["talks"] as? Dictionary<String, Dictionary<String, AnyObject>> else {
                 return
             }
-            // guard let masse = posts["福本"] as? Dictionary<String, Dictionary<String, Dictionary<String, AnyObject>>> else{
-            //    return
-            // }
+            guard let posts = post[self.sendUser] as? Dictionary<String, Dictionary<String, AnyObject>> else {
+                return
+            }
             
             var keyValueArray: [(String, Int)] = []
             for (key, value) in posts {
                 keyValueArray.append((key: key, date: value["date"] as! Int))
             }
-            keyValueArray.sort{$0.1 < $1.1}             // タプルの中のdate でソートしてタプルの順番を揃える(配列で) これでkeyが順番通りになる
-            // messagesを再構成
-            var preMessages = [JSQMessage]()
+            keyValueArray.sort{$0.1 < $1.1}
             
-            for sortedTuple in keyValueArray{
+            
+            var preMessages = [JSQMessage]()
+            for sortedTuple in keyValueArray {
                 for (key, value) in posts {
                     if key == sortedTuple.0 {           // 揃えた順番通りにメッセージを作成
                         let senderId = value["senderId"] as! String!
@@ -59,34 +55,9 @@ class chat: JSQMessagesViewController {
             self.messages = preMessages
             
             self.collectionView.reloadData()
-        })
+        }
+        )
     }
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-//            self.messages = posts.values.map {dic  in
-//                let senderId = dic["senderId"] ?? "" as AnyObject
-//                let text = dic["text"] ?? "" as AnyObject
-//                let displayName = dic["displayName"] ?? "" as AnyObject
-//                print(senderId,displayName)
-//                return JSQMessage(senderId: senderId as! String,  displayName: displayName as! String, text: text as! String)
-//            }
-//            self.collectionView.reloadData()
-//        }
-//        )
-//----------------------------------------------------------------この辺おかしいあるよ　わかってるけど降りれないのよ・・・・
-//    }
-
-    
     
     override func collectionView(_ collectionView: JSQMessagesCollectionView!, messageDataForItemAt indexPath: IndexPath!) -> JSQMessageData! {
         return messages[indexPath.row]
@@ -126,11 +97,11 @@ class chat: JSQMessagesViewController {
             font: UIFont.systemFont(ofSize: 10),
             diameter: 30)
     }
+    // 送信ボタンを押した時の処理
     override func didPressSend(_ button: UIButton!, withMessageText text: String!, senderId: String!, senderDisplayName: String!, date: Date!) {
         inputToolbar.contentView.textView.text = ""
         let ref = Database.database().reference()
-        ref.child("talks").child(senderId).childByAutoId().setValue(["name":senderDisplayName,"text": text,"senderId":senderId,"date": [".sv": "timestamp"]])
-        //ref.child("talks").childByAutoId().setValue(["senderId": senderId, "text": text, "displayName": senderDisplayName])
+        ref.child("talks").child(senderId).childByAutoId().setValue(["senderId": senderId, "text": text, "displayName": senderDisplayName,"date":[".sv": "timestamp"]])
     }
     
 }
