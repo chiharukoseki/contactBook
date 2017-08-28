@@ -23,10 +23,29 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                     </view>
+                    <navigationItem key="navigationItem" id="sTf-vf-LPd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QuN-8e-iLW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="268" y="227"/>
+            <point key="canvasLocation" x="1207.2" y="226.23688155922042"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cWA-t4-tao">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="q2c-oB-DpB" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OI2-Mj-Wv8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XfB-Tx-VRu" kind="relationship" relationship="rootViewController" id="9II-79-8n1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lmk-HL-8eX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="268" y="226.23688155922042"/>
         </scene>
     </scenes>
 </document>
