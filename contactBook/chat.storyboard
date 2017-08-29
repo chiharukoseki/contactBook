@@ -23,10 +23,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                     </view>
+                    <navigationItem key="navigationItem" id="LOf-6h-XeG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QuN-8e-iLW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="268" y="227"/>
+            <point key="canvasLocation" x="2146.4000000000001" y="226.23688155922042"/>
         </scene>
     </scenes>
 </document>

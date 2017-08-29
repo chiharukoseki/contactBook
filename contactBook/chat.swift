@@ -23,6 +23,9 @@ class chat: JSQMessagesViewController {
         senderDisplayName = sendUser
         senderId = sendUser
         setupBackButton()
+        
+        
+        
         let ref = Database.database().reference()
         ref.observe(.value, with: { snapshot in
             guard let dic = snapshot.value as? Dictionary<String, AnyObject> else {
@@ -53,9 +56,7 @@ class chat: JSQMessagesViewController {
                     }
                 }
             }
-            
-            self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage.jsq_defaultTypingIndicator(), style: .plain, target: self, action: #selector(self.receiveMessagePressed))
-            
+
             // This is a beta feature that mostly works but to make things more stable it is diabled.
            
             
@@ -65,159 +66,33 @@ class chat: JSQMessagesViewController {
             self.collectionView.reloadData()
         }
         )
+        
     }
     func setupBackButton() {
-        let backButton = UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.plain, target: self, action: #selector(backButtonTapped))
-        navigationItem.leftBarButtonItem = backButton
+        let navigationBar = UINavigationBar(frame: CGRect(x:0, y:0, width:self.view.frame.size.width,height: 64)) // Offset by 20 pixels vertically to take the status bar into account
+        
+        
+        
+        navigationBar.backgroundColor = UIColor.white
+        
+        navigationBar.delegate = self as? UINavigationBarDelegate
+        
+        let navigationItem = UINavigationItem()
+        
+        navigationItem.title = "中西先生"
+        
+        navigationItem.leftBarButtonItem  =  UIBarButtonItem(title: "<Back", style:UIBarButtonItemStyle.plain, target: self, action:#selector(chat.tappedLeftBarButton))
+        
+        navigationBar.items = [navigationItem]
+        
+        self.view.addSubview(navigationBar)
     }
-    func backButtonTapped() {
-        dismiss(animated: true, completion: nil)
+    func tappedLeftBarButton() {
+        let storyboard: UIStoryboard = UIStoryboard(name: "Storyboard", bundle: nil)
+        let nextView = storyboard.instantiateInitialViewController()
+        present(nextView!, animated: true, completion: nil)
     }
     
-    func receiveMessagePressed(_ sender: UIBarButtonItem) {
-        /**
-         *  DEMO ONLY
-         *
-         *  The following is simply to simulate received messages for the demo.
-         *  Do not actually do this.
-         */
-        
-        /**
-         *  Show the typing indicator to be shown
-         */
-        self.showTypingIndicator = !self.showTypingIndicator
-        
-        /**
-         *  Scroll to actually view the indicator
-         */
-        self.scrollToBottom(animated: true)
-        
-        /**
-         *  Copy last sent message, this will be the new "received" message
-         */
-        var copyMessage = self.messages.last?.copy()
-        
-        if (copyMessage == nil) {
-            copyMessage = JSQMessage(senderId: sendUser, displayName: sendUser, text: "First received!")
-        }
-        
-        var newMessage:JSQMessage!
-        var newMediaData:JSQMessageMediaData!
-        var newMediaAttachmentCopy:AnyObject?
-        
-        if (copyMessage! as AnyObject).isMediaMessage() {
-            /**
-             *  Last message was a media message
-             */
-            let copyMediaData = (copyMessage! as AnyObject).media
-            
-            switch copyMediaData {
-            case is JSQPhotoMediaItem:
-                let photoItemCopy = (copyMediaData as! JSQPhotoMediaItem).copy() as! JSQPhotoMediaItem
-                photoItemCopy.appliesMediaViewMaskAsOutgoing = false
-                
-                newMediaAttachmentCopy = UIImage(cgImage: photoItemCopy.image!.cgImage!)
-                
-                /**
-                 *  Set image to nil to simulate "downloading" the image
-                 *  and show the placeholder view5017
-                 */
-                photoItemCopy.image = nil;
-                
-                newMediaData = photoItemCopy
-            case is JSQLocationMediaItem:
-                let locationItemCopy = (copyMediaData as! JSQLocationMediaItem).copy() as! JSQLocationMediaItem
-                locationItemCopy.appliesMediaViewMaskAsOutgoing = false
-                newMediaAttachmentCopy = locationItemCopy.location!.copy() as AnyObject?
-                
-                /**
-                 *  Set location to nil to simulate "downloading" the location data
-                 */
-                locationItemCopy.location = nil;
-                
-                newMediaData = locationItemCopy;
-            case is JSQVideoMediaItem:
-                let videoItemCopy = (copyMediaData as! JSQVideoMediaItem).copy() as! JSQVideoMediaItem
-                videoItemCopy.appliesMediaViewMaskAsOutgoing = false
-                newMediaAttachmentCopy = (videoItemCopy.fileURL! as NSURL).copy() as AnyObject?
-                
-                /**
-                 *  Reset video item to simulate "downloading" the video
-                 */
-                videoItemCopy.fileURL = nil;
-                videoItemCopy.isReadyToPlay = false;
-                
-                newMediaData = videoItemCopy;
-            case is JSQAudioMediaItem:
-                let audioItemCopy = (copyMediaData as! JSQAudioMediaItem).copy() as! JSQAudioMediaItem
-                audioItemCopy.appliesMediaViewMaskAsOutgoing = false
-                newMediaAttachmentCopy = (audioItemCopy.audioData! as NSData).copy() as AnyObject?
-                
-                /**
-                 *  Reset audio item to simulate "downloading" the audio
-                 */
-                audioItemCopy.audioData = nil;
-                
-                newMediaData = audioItemCopy;
-            default:
-                assertionFailure("Error: This Media type was not recognised")
-            }
-            
-            newMessage = JSQMessage(senderId: sendUser, displayName: sendUser, media: newMediaData)
-        }
-        else {
-            /**
-             *  Last message was a text message
-             */
-            
-            newMessage = JSQMessage(senderId: sendUser, displayName: sendUser, text: (copyMessage! as AnyObject).text)
-        }
-        
-        /**
-         *  Upon receiving a message, you should:
-         *
-         *  1. Play sound (optional)
-         *  2. Add new JSQMessageData object to your data source
-         *  3. Call `finishReceivingMessage`
-         */
-        
-        self.messages.append(newMessage)
-        self.finishReceivingMessage(animated: true)
-        
-        if newMessage.isMediaMessage {
-            /**
-             *  Simulate "downloading" media
-             */
-            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + Double(Int64(1 * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC)) {
-                /**
-                 *  Media is "finished downloading", re-display visible cells
-                 *
-                 *  If media cell is not visible, the next time it is dequeued the view controller will display its new attachment data
-                 *
-                 *  Reload the specific item, or simply call `reloadData`
-                 */
-                
-                switch newMediaData {
-                case is JSQPhotoMediaItem:
-                    (newMediaData as! JSQPhotoMediaItem).image = newMediaAttachmentCopy as? UIImage
-                    self.collectionView!.reloadData()
-                case is JSQLocationMediaItem:
-                    (newMediaData as! JSQLocationMediaItem).setLocation(newMediaAttachmentCopy as? CLLocation, withCompletionHandler: {
-                        self.collectionView!.reloadData()
-                    })
-                case is JSQVideoMediaItem:
-                    (newMediaData as! JSQVideoMediaItem).fileURL = newMediaAttachmentCopy as? URL
-                    (newMediaData as! JSQVideoMediaItem).isReadyToPlay = true
-                    self.collectionView!.reloadData()
-                case is JSQAudioMediaItem:
-                    (newMediaData as! JSQAudioMediaItem).audioData = newMediaAttachmentCopy as? Data
-                    self.collectionView!.reloadData()
-                default:
-                    assertionFailure("Error: This Media type was not recognised")
-                }
-            }
-        }
-    }
     
     override func collectionView(_ collectionView: JSQMessagesCollectionView!, messageDataForItemAt indexPath: IndexPath!) -> JSQMessageData! {
         return messages[indexPath.row]
@@ -297,6 +172,5 @@ class chat: JSQMessagesViewController {
         
         return 0.0
     }
-    
     
 }
